@@ -1,0 +1,613 @@
+    /* QUOTE SECTION */
+
+.testing{
+    border: dotted white 6px;
+}    
+.quote-ejs-page{
+        /* margin: 100px  100px 100px 100px; */
+        font-size:25px;
+        font-style: italic;
+        
+        }
+            
+.quote{
+        color:black;;
+        font-style: normal;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+    }    
+
+.specified-font{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+/* NAVBAR PICTURE BLURRING */
+.mobile-effect{
+    filter: blur(2.0px);
+    -webkit-filter: blur(2.0px);
+}
+
+.first-slide-blur-effect{
+    filter: blur(2.2px);
+  -webkit-filter: blur(2.2px);
+}
+.last-slide-blur-effect{
+    /* Add the blur effect */
+   filter: blur(2.2px); 
+  -webkit-filter: blur(2.2px);
+} */
+
+/* MEMBER PAGE ADDED EFFECTS */
+.organizer-added-effects{
+    margin-left: 45%;
+    margin-bottom:5%;
+    height:220px;
+    width:220px;
+    border-radius: 360%;
+    
+}
+.width-added{
+    margin-left: 45%;
+    margin-bottom:5%;
+    height:200px;
+    width:220px;
+    border-radius: 360%;
+    
+}
+.ejsContent{
+    font-size: 20px;
+    text-align: left;
+    /* font-family: monospace; */
+    /* font-style: normal; */
+}
+.ejs-rounded-pic{
+    margin-left: 45%;
+    margin-bottom:5%;
+    height:200px;
+    width:200px;
+    border-radius: 360%;
+}
+
+/* SETTINGS FOR FOUNDER PAGE */
+h4{
+    font-weight:100;
+}
+
+.ejs-page-title{
+    margin: 150px  0px 30px 60px;
+    padding:0;
+    
+    }
+    
+.ejs-page{
+margin: 100px  100px 100px 100px;
+font-size:15px;
+
+}
+
+hr {
+    border: dotted #E45C4D 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+/* ROW OF WELFARE OFFICER */
+.welfareCenter{
+    position:relative;
+    margin-left:38%;
+    display:block;
+}    
+
+
+/**
+ * Circle Styles
+ */
+
+ .circle {
+    position: relative;
+    display: block;
+    margin: 2em 0;
+    background-color: transparent;
+    color: #222;
+    text-align: center;
+  }
+
+  #aboutUs .circle:hover{
+    background-color: #e74c3c;
+    /* color:#e45c4d; */
+    /* color: #fff; */
+    /* color:#e74c3c; */
+    /* border-radius:5px; */
+    border: none;
+    box-shadow: 5px 5px 20px #9E9E9E;
+}
+
+/* .circle:hover{ */
+    /* color:#e74c3c; */
+    /* background:#e74c3c;   */
+  /* } */
+  
+  .circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: white;
+    content: "";
+  }
+  
+  .circle__inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle__wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle__content {
+    display: table-cell;
+    padding: 1em;
+    vertical-align: middle;
+  }
+  
+  
+ 
+.about-us{
+    background-color: white;
+/* background-color: #e74c3c; */
+}
+.listElements{
+    font-weight: 300;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 20px;
+}
+
+#aboutUs .circle{
+    background-color: white;
+    border-radius:50%;
+    box-shadow:5px 5px 15px #e74c3c ;
+    transition: all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+/* #aboutUS .circle:hover{ */
+    /* background: #e74c3c; */
+    /* color: #fff; */
+    /* border-radius:5px; */
+    /* border: none; */
+    /* box-shadow: 5px 5px 10px #9E9E9E; */
+/* } */
+
+p{
+	font-size: 20px;
+}
+
+/* EDITING ON THE IMAGES ON THE PROFILE OF THE TEAM MEMBERS */
+.esther-rounded-circle{
+    border-radius:52%;
+    height: 160px;
+}
+.organizer-rounded-circle{
+    border-radius:51%;
+    height:158px;
+}
+.richard-rounded-circle{
+    border-radius:51%;
+    height:162px;
+}
+.degraft-rounded-circle{
+    border-radius:54%;
+    height:150px;
+    width:200px;
+}
+.janet-rounded-circle{
+    border-radius:52%;
+    height:160px;
+}
+.bernice-rounded-circle{
+    border-radius:52%;
+    height:160px;
+}
+
+/* ENDS HERE */
+
+/* CSS ON CAROUSEL  */
+.carousel-item{
+    height:100vh;
+    min-height:300px ;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover ;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 350px;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    font-weight:bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+    font-family: 'Quicksand',sans-serif;
+    
+    /* new added effects */
+    /* font-size:70px;
+    text-transform:uppercase;
+    font-weight:bold; */
+
+}
+
+/* effects For our Team  */
+*{
+    margin: 0;
+    padding:0;
+}
+#titles{
+    font-family:'Raleway','sans-serif';
+    font-size:14px;
+    font-weight:400;
+    color:#777;
+
+
+}
+h3{
+    font-size:24px;
+    font-family: 'Ubuntu','sans-serif';
+}
+#team img{
+    margin-top:-50px;
+
+}
+#team i{
+    font-size:26px;
+}
+#team p{
+    font-weight: 300;
+}
+#team .card{
+    border-radius:0;
+    box-shadow:5px 5px 15px #e74c3c ;
+    transition: all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#team .card:hover{
+    background: #e74c3c;
+    color: #fff;
+    border-radius:5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+
+/* Navbar CSS Section */
+.navbar-inverse{
+    background-color: transparent;
+    border-color:transparent;
+}
+
+.navbar-inverse .navbar-brand{
+/* color:#fff; */
+font-size: 40px;
+padding:10px 10px;
+font-weight: 900;
+}
+
+.nav.navbar-nav.navbar-right {
+    margin:25px 0;
+} 
+.navbar-inverse .navbar-nav > a{
+    color:#fff;
+}
+
+.banner{
+   -webkit-background-size:cover; 
+   background-size:cover;
+   background-position: center center;
+   background-repeat:no-repeat;
+   height:100vh;
+
+}
+
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+    /* color: white; */
+}
+/* .navbar-nav a{
+    font-family: 'Ubuntu';
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight: bold;
+} */
+
+.navbar-light .navbar-brand{
+	color: #fff;
+    /* color:black; */
+    /* color:#e74c3c; */
+    font-size: 20px;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: black;
+        /* color:#e74c3c; */
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding: .2rem 1rem;
+}
+
+
+.navbar-light .navbar-brand .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+    color:#e74c3c !important;
+}
+
+.w-100{
+	height: 100vh;
+}
+
+/* @media only screen and (max-width:767px){
+    .navbar-nav.ml-auto{
+        background: rgba(0,0,0,0.3);
+    }
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size:18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+} */
+
+/* IN THE DESKTOP VIEW */
+      
+#content-desktop{
+    display:block;
+}
+
+#content-mobile{
+display:none;
+
+
+}     
+
+/* FOOTER SECTION */
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+a:hover.links {
+    color: burlywood;
+}
+.contact-me{
+    color:#e74c3c;;
+        margin: 0;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    text-align:center;
+    font-size: 1rem;
+    margin:15px 2px 15px 2px;
+    /* padding: 20px 0; */
+}
+.bottom-container {
+
+    background-color:#E45C4D;
+    padding: 50px 0 20px;
+}
+
+.btn {
+    background: #DC3522;
+    background-image: -webkit-linear-gradient(top, #DC3522, #E45C4D);
+    background-image: -moz-linear-gradient(top, #DC3522, #E45C4D);
+    background-image: -ms-linear-gradient(top, #DC3522, #E45C4D);
+    background-image: -o-linear-gradient(top, #DC3522, #E45C4D);
+    background-image: linear-gradient(to bottom, #DC3522, #E45C4D);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 8px;
+    font-family: Monospace;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #363232;
+   
+}
+
+.btn:hover {
+    /* border: solid #F74B38 0px; */
+    background: #E74C3C;
+    background-image: -webkit-linear-gradient(top, #E74C3C, #CC3829);
+    background-image: -moz-linear-gradient(top, #E74C3C, #CC3829);
+    background-image: -ms-linear-gradient(top, #E74C3C, #CC3829);
+    background-image: -o-linear-gradient(top, #E74C3C, #CC3829);
+    background-image: linear-gradient(to bottom, #E74C3C, #CC3829);
+    
+}
+
+
+
+/* RESPONSIVE CSS */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.carousel-caption{
+    padding-bottom: 350px;
+
+}
+.carousel-caption h5{
+    font-size:50px;
+}
+
+}
+
+@media only screen and (max-width:767px){
+    .navbar-inverse .navbar-brand{
+        font-size:25px;
+        padding:5px 5px;
+    }
+    .navbar-collapse{
+        background:rgba(0,0,0,0);
+    }
+
+    .carousel-caption{
+        padding-bottom:120px;
+
+    }
+    .carousel-caption h5{
+        font-size:25px;
+    }
+    .carousel-caption p{
+        font-size:18px;
+    }
+    .carousel-caption a{
+        padding:10px 25px;
+    }
+
+      /* setting the new effect of the AboutUS section */
+
+  #content-desktop{
+    display:none;
+}    
+#content-mobile{
+    display:block;
+}
+
+/* #content-firstSection-mobile{
+  /* background-image: url("istockphoto-157478738-612x612.jpg"); */
+ /* background-color:white;   */
+/* } */ 
+/* Adjusting the position of welfare officer card */
+.welfareCenter{
+      /* position:relative; */
+      margin-left:2%;
+      /* display:block;  */
+  
+}
+
+/* Adding Padding and other effects to Vision section and Mission Section */
+.vision{
+  padding: 25px 50px 75px;
+}
+
+.mission{
+  padding: 25px 50px 75px;
+}
+
+.projects-we-undertake{
+  padding: 25px 50px 75px;
+}
+
+.target-beneficiaries{
+  padding: 25px 50px 75px;
+  line-height:1.2;
+}
+div.projects-we-undertake{
+  line-height:2.5;
+}
+
+.boxed{
+  border-style: dotted;
+  border:2px white;
+  height:0%;
+  box-shadow: 3px 3px 25px #e74c3c ;
+  margin-left:16%;
+  width:70%;
+
+}
+/* default color for box hover */
+/* rgb(206, 205, 205); */
+
+
+/* second chosen color */
+/* rgb(231, 230, 230) */
+
+#content-mobile .boxed:hover{
+  background-color: rgb(206, 205, 205);
+  border: none;
+  box-shadow: 2px 2px 5px #9E9E9E;
+}
+
+#content-mobile .boxed:after {
+  /* display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%; */
+  background-color: white;
+  content: "";
+}
+
+#team img{
+  margin-top:-50px;
+
+}
+#team i{
+  font-size:26px;
+}
+#team p{
+  font-weight: 300;
+}
+#team .card{
+  border-radius:0;
+  box-shadow:5px 5px 15px #e74c3c ;
+  transition: all 0.3s ease-in;
+  -webkit-transition:all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  margin-bottom: 100px;
+  margin-left:20px;
+}
+#team .card:hover{
+  background: #e74c3c;
+  color: #fff;
+  border-radius:5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9E9E9E;
+}
+#team .card:hover h3, #team .card:hover i{
+  color: #fff;
+}
+
+}
+
+}
+
