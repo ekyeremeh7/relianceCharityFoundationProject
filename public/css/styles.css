@@ -78,32 +78,6 @@
     height: 100vh;
 }
 
-@media only screen and (max-width:767px) {
-    .navbar-light .navbar-brand {
-        font-size: 20px;
-    
-    }
-    .navbar-light .navbar-nav .nav-link{
-        text-shadow: 2.5px 2.5px 2.5px black;
-        color:#fff;
-    }
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-        color: #fff;
-    }
-    .navbar-nav.ml-auto {
-        background: rgba(0, 0, 0, 0);
-    }
-
-    .navbar-toggler {
-        padding: 1px 1px;
-        font-size: 15px;
-        line-height: 0.1;
-        background: #fff;
-    }
-
-    
-
-}
 
 /* IN THE DESKTOP VIEW */
 
@@ -437,13 +411,6 @@ p{
 
 }
 
-
-/* #titles{
-    font-family:'Raleway',sans-serif;
-    font-size:14px;
-    font-weight:400;
-    color:#777;
-} */
 h3 {
     font-size: 24px;
     font-family: 'Ubuntu', sans-serif;
@@ -544,160 +511,6 @@ h3 {
 
 /* TEAM SECTION ENDS HERE */
 
-/* MEET THE TEAM SECTION
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-}
-
-#team{
-    padding:10rem 0;
-    background-color: #fff;
-}
-.heading{
-    font-size:2.4rem;
-    letter-spacing:3px;
-    margin-right:-3px;
-    margin-bottom:6rem;
-    text-align:center;
-    color:#333;
-    position:relative;
-}
-
-.heading::after{
-    content:"";
-    width:10rem;
-    height: .4rem;
-    background-color:#e74c3c;
-    position:absolute;
-    bottom: -1rem;
-    left:50%;
-    transform:translateX(-50%);
-    border-radius:2rem;
-
-}
-.card-wrapper{
-    display:flex;
-    align-items:center;
-    align-content:center;
-    flex-direction:column;
-}
-
-.card{
-    border-radius:0;
-    width:24rem;
-    background-color:#fff;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    margin:2rem 0;
-    box-shadow:5px 5px 15px #e74c3c ;
-
-}
-
-#team img{
-    margin-top:-50%;
-    width:100%;
-     height:12rem; 
-    object-fit:cover; 
-    transition: all 0.3s ease-in;
-    -webkit-transition:all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-}
-
-
-#team .card:hover{
-    background: #e74c3c;
-    color: #fff;
-    border-radius:5px;
-    border: none;
-    box-shadow: 5px 5px 10px #9E9E9E;
-}
-
-h3{
-    font-size:1.8rem;
-    font-family: 'Ubuntu',sans-serif;
-}
-
-#team i{
-    font-size:30px;
-}
-
-#team p{
-    font-weight: 300;
-    font-size: 20px;
-    text-align:left;
-    margin:1.0rem 0.5rem 0.5rem 1.0rem;
-    }
-
-    @media screen and (min-width:700px){
-        .card-wrapper{
-            flex-direction:row;
-            flex-wrap:wrap;
-            justify-content:center;
-            align-items:center;
-        }
-
-        .card{
-            margin:2rem;
-            transition:transform .5s;
-        }
-
-        @keyframes fadeIn{
-            from{
-                opacity:0;
-            }
-            to{
-                opacity:1;
-            }
-        }
-
-        .card:nth-child(1){
-            animation:fadeIn .5s .5s backwards;
-        }
-
-        .card:nth-child(2){
-            animation:fadeIn .5s 1s backwards;
-        }
-
-        .card:nth-child(3){
-            animation:fadeIn .5s 1.5s backwards;
-        }
-
-        .card:nth-child(4){
-            animation:fadeIn .5s 2s backwards;
-        }
-
-        .card:nth-child(5){
-            animation:fadeIn .5s 2.5s backwards;
-        }
-
-        .card:nth-child(6){
-            animation:fadeIn .5s 3s backwards;
-        }
-
-        .card:nth-child(7){
-            animation:fadeIn .5s 3.5s backwards;
-        }
-
-        .card:nth-child(8){
-            animation:fadeIn .5s 4s backwards;
-        }
-
-        .card:nth-child(9){
-            animation:fadeIn .5s 4.5s backwards;
-        }
-
-        .card:hover{
-            transform:scale(1.05);
-        }
-    } */
 
 
 /* FOOTER SECTION */
@@ -773,6 +586,7 @@ a:hover.links {
 
 }
 
+/* RESPONSIVE CSS */
 @media only screen and (min-width:600px) and (max-width:1024px) {
     .carousel-caption {
         padding-bottom: 320px;
@@ -803,22 +617,31 @@ a:hover.links {
 
 }
 
-
-/* @media screen and (min-width:700px){
-    .card{
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items:center;
-    }
-} */
-
 @media only screen and (max-width:767px) {
+    
     .navbar-light .navbar-brand {
         font-size: 20px;
         padding: 5px 5px;
     }
 
+    .navbar-light .navbar-nav .nav-link{
+        text-shadow: 2.5px 2.5px 2.5px black;
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        color: #fff;
+    }
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .navbar-toggler {
+        padding: 1px 1px;
+        font-size: 15px;
+        line-height: 0.1;
+        background: #fff;
+    }
+    
     .nav-link {
         color: #fff;
     }
@@ -953,4 +776,9 @@ a:hover.links {
     }
 
 
+
+    
+
 }
+
+
