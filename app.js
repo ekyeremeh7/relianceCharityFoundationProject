@@ -14,7 +14,7 @@ const headOfLogisticsInfo = "Arthur William, A creative Director and an Entrepre
 const headOfMediaAndPublicityInfo = "De-Graft Amihere widely known as Degraft Daniels is a young talented entrepreneur and functions as the creative director for the Fashion label 'Dgraft Daniels'. Works at Global Ovations as a Marketing Executive and an event producer. Produced events like the Mercedes Benz Fashion Week Accra/Global Fashion week, Women's Choice Awards Africa and IAFE. De-Graft Amihere is a student, a team player, lover of art.";
 const treasurerInfo = "Janet Quarshie, A political science student and information studies student of the university of Ghana. She is a supervisor in a research market firm called Elparah Consult and a Treasurer for Reliance Charity Foundation. She has seven years experience of market research.Jane is a music lover and lively person. She is an advisor to many, multifaceted and loves to empower the youth to come out with their best.";
 const welfareOfficerInfo = "Nimarko Bernice Afrima, A student of University of Professional Studies(UPSA) reading Business Administration. She is a good reader and loves music. Nimarko Bernice Afrima is good at keeping healthy relationship and bringing out the best in people, motivating people is one of the things she does.";
-
+const financialSecretaryInfo="Obeng-Tawiah Patrick, A financial Accounting student of Accra Technical University as well as business consultant at Wilpamo ventures and a Personal Assistant to the CEO of Wilpamo Ventures.Also a sales personnelat Kok's Consult.";
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({
@@ -34,6 +34,7 @@ app.get("/", function (req, res) {
         headOfMediaAndPublicityContent: headOfMediaAndPublicityInfo,
         treasurerContent: treasurerInfo,
         welfareOfficerContent: welfareOfficerInfo,
+        financialSecretaryContent: financialSecretaryInfo,
     });
 });
   
@@ -92,7 +93,16 @@ app.get("/members/welfareOfficer", function (req, res) {
     res.render("welfareOfficer", {
         welfareOfficerContent: welfareOfficerInfo
     });
+
+
 });
+
+app.get("/members/financialSecretary",function(req,res){
+    res.render("financialSecretary",{
+        financialSecretaryContent:financialSecretaryInfo
+    })
+}
+);
 
 
 
