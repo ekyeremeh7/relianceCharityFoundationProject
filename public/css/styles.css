@@ -198,8 +198,9 @@ hr {
 /* ROW OF WELFARE OFFICER */
 .welfareCenter {
     position: relative;
-    margin-left: 38%;
+    margin-left: 18%;
     display: block;
+    margin-bottom: 5%;
 }
 
 
@@ -570,7 +571,7 @@ a:hover.links {
 }
 
 
-@media only screen and (max-width:960px) {
+/* @media only screen and (max-width:960px) {
     .carousel-caption {
         bottom: 240px;
     }
@@ -589,9 +590,9 @@ a:hover.links {
         margin-left:300px;;
     }
     
-    }
+    } */
 
-    .boxed {
+    /* .boxed {
         border-style: dotted;
         border: 2px white;
         height: 0%;
@@ -599,11 +600,11 @@ a:hover.links {
         margin-left: 10%;
         width: 70%;
 
-    }
+    } */
 
 
 /* PHONE VIEW CSS */
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:960px) {
     
     .navbar-light .navbar-brand {
         font-size: 20px;
@@ -638,19 +639,23 @@ a:hover.links {
 
     .carousel-caption {
         padding-bottom: 120px;
+        /* padding-bottom:750% */
 
     }
 
     .carousel-caption h5 {
         font-size: 25px;
+        /* font-size:156.25%; */
     }
 
     .carousel-caption p {
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size:112.5;
     }
 
     .carousel-caption a {
         padding: 10px 25px;
+        /* padding:62.5% 156.25%; */
     }
 
     /* setting the new effect of the AboutUS section */
@@ -662,10 +667,21 @@ a:hover.links {
     #content-mobile {
         display: block;
     }
-
-    #team .welfareCardPositioning{
-        margin-left:3px;
+    .welfareCenter {
+        position: relative;
+        margin-left: 5%;
+        display: block;
+        margin-bottom: 5%;
+        width: 5%;
     }
+    
+
+    /* #team .welfareCardPositioning{ */
+        /* margin-left:150px; */
+        /* margin-left:1562.5%; */
+        /* margin-top:15%;
+        margin-bottom: 15%; */
+    /* } */
    
     /* Adding Padding and other effects to Vision section and Mission Section */
     .vision {
@@ -694,8 +710,8 @@ a:hover.links {
         border: 2px white;
         height: 0%;
         box-shadow: 3px 3px 25px #e74c3c;
-        margin-left: 16%;
-        width: 70%;
+        margin-left: 25%;
+        width: 50%;
 
     }
 
@@ -730,8 +746,12 @@ a:hover.links {
         transition: all 0.3s ease-in;
         -webkit-transition: all 0.3s ease-in;
         -moz-transition: all 0.3s ease-in;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
+        /* margin-bottom:50%; */
         margin-left: 20px;
+        /* margin-left:125%; */
+    
+
     }
 
     #team .card:hover {
