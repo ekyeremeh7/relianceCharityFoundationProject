@@ -1,19 +1,10 @@
-/* .members-container{
-    width:100%;
-    text-align:left;
-} */
 
 /* NAVBAR SECTION */
 .navbar-light .navbar-brand {
     color: #fff;
     text-shadow: 2.5px 2.5px 2.5px black;
-    /* color:black; */
-    /* color:#e74c3c; */
-    /* color: #DC3522; */
     font-size: 28px;
-    /* font-weight: bolder; */
     font-weight: bold;
-    /* letter-spacing: 0.7px; */
     letter-spacing: 2px;
 }
 
@@ -36,11 +27,8 @@
 }
 
 .navbar-light .navbar-brand:hover {
-    /* color: #DC3522; */
     color: #e74c3c;
-    ;
-    /* color: black; */
-}
+  }
 
 
 
@@ -50,8 +38,7 @@
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
     color: black;
-    /* color:#e74c3c; */
-}
+    }
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
@@ -66,8 +53,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight: 800;
-    /* padding: .1rem 1rem; */
-}
+   }
 
 .nav-item {
     margin: 5px 2px 5px;
@@ -131,7 +117,6 @@
 }
 
 .quote-ejs-page {
-    /* margin: 100px  100px 100px 100px; */
     font-size: 25px;
     font-style: italic;
 
@@ -174,9 +159,7 @@
 .ejsContent {
     font-size: 20px;
     text-align: left;
-    /* font-family: monospace; */
-    /* font-style: normal; */
-}
+    }
 
 .ejs-rounded-pic {
     margin-left: 45%;
@@ -238,18 +221,9 @@ h6 {
 
 #aboutUs .circle:hover {
     background-color: #e74c3c;
-    /* color:#e45c4d; */
-    /* color: #fff; */
-    /* color:#e74c3c; */
-    /* border-radius:5px; */
     border: none;
     box-shadow: 5px 5px 20px #9E9E9E;
 }
-
-/* .circle:hover{ */
-/* color:#e74c3c; */
-/* background:#e74c3c;   */
-/* } */
 
 .circle:after {
     display: block;
@@ -286,12 +260,10 @@ h6 {
 
 .about-us {
     background-color: white;
-    /* background-color: #e74c3c; */
-}
+   }
 
 .listElements {
     font-weight: 300;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 20px;
 }
 
@@ -303,19 +275,6 @@ h6 {
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
 }
-
-/* #aboutUS .circle:hover{ */
-/* background: #e74c3c; */
-/* color: #fff; */
-/* border-radius:5px; */
-/* border: none; */
-/* box-shadow: 5px 5px 10px #9E9E9E; */
-/* } */
-
-/* 
-p{
-	font-size: 20px;
-} */
 
 
 /* EDITING ON THE IMAGES ON THE PROFILE OF THE TEAM MEMBERS */
@@ -554,7 +513,7 @@ a:hover.links {
     text-align: center;
     font-size: 1rem;
     margin: 15px 2px 15px 2px;
-    /* padding: 20px 0; */
+   
 }
 
 .bottom-container {
@@ -583,7 +542,6 @@ a:hover.links {
 }
 
 .btn:hover {
-    /* border: solid #F74B38 0px; */
     background: #E74C3C;
     background-image: -webkit-linear-gradient(top, #E74C3C, #CC3829);
     background-image: -moz-linear-gradient(top, #E74C3C, #CC3829);
@@ -593,64 +551,26 @@ a:hover.links {
 
 }
 
-/* RESPONSIVE CSS */
-/* @media only screen and (min-width:600px) and (max-width:1024px) {
+
+@media only screen and (max-width:1208px){
     .carousel-caption {
-        padding-bottom: 320px;
-
+        bottom: 370px;
     }
-
     .carousel-caption h5 {
-        font-size: 40px;
+        font-size:25px;
+    }
+    #aboutUs h3 {
+        font-size: 20px;
     }
 
-    .carousel-caption p {
-        font-size: 25px;
+   #aboutUs h6 {
+        font-size: 14px;
     }
 
-    .carousel-caption a {
-        padding: 10px 25px;
-    } */
-
-    /**
- * Circle Styles
- */
- /* #aboutUs h3 {
-    font-size: 20px;
-    line-height: 1.0;
 }
 
-#aboutUs h6 {
-    font-size: 0.9rem;
-    font-weight:350;
-} */
 
-
-/* .circle {
-    display: block;
-    border-radius: 50%;
-    min-width: 260px;
-    min-height: 260px;
-    position: relative;
-    background-color: transparent;
-    color: #222;
-    text-align: center;
-} */
-
-/* .circle:after {
-    display: block;
-    padding-bottom: 100%;
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background-color: white;
-    content: "";
-} */
-
-
-/* } */
-
-/* @media only screen and (max-width:960px) {
+@media only screen and (max-width:960px) {
     .carousel-caption {
         bottom: 240px;
     }
@@ -661,13 +581,25 @@ a:hover.links {
         font-size: 20px;
     }
 
-    .card{
-        margin-bottom:12px;
+    #team .card{
+        margin-bottom:100px;
     }
 
+    #team .welfareCardPositioning{
+        margin-left:300px;;
+    }
     
-    } */
+    }
 
+    .boxed {
+        border-style: dotted;
+        border: 2px white;
+        height: 0%;
+        box-shadow: 3px 3px 25px #e74c3c;
+        margin-left: 10%;
+        width: 70%;
+
+    }
 
 
 /* PHONE VIEW CSS */
@@ -731,18 +663,10 @@ a:hover.links {
         display: block;
     }
 
-    .welfareCenter {
-        position:relative;
-        margin-left:0.9px;
-        display:block; 
-
+    #team .welfareCardPositioning{
+        margin-left:3px;
     }
-    /* .financialCenter{
-        position:relative;
-        margin-left:0.9px;
-        display:block;
-    } */
-
+   
     /* Adding Padding and other effects to Vision section and Mission Section */
     .vision {
         padding: 25px 50px 75px;
@@ -775,13 +699,6 @@ a:hover.links {
 
     }
 
-    /* default color for box hover */
-    /* rgb(206, 205, 205); */
-
-
-    /* second chosen color */
-    /* rgb(231, 230, 230) */
-
     #content-mobile .boxed:hover {
         background-color: rgb(206, 205, 205);
         border: none;
@@ -789,11 +706,6 @@ a:hover.links {
     }
 
     #content-mobile .boxed:after {
-        /* display: block;
-  padding-bottom: 100%;
-  width: 100%;
-  height: 0;
-  border-radius: 50%; */
         background-color: white;
         content: "";
     }
@@ -813,7 +725,6 @@ a:hover.links {
 
 
     #team .card {
-        /* width:18rem; */
         border-radius: 0;
         box-shadow: 5px 5px 15px #e74c3c;
         transition: all 0.3s ease-in;
@@ -821,10 +732,9 @@ a:hover.links {
         -moz-transition: all 0.3s ease-in;
         margin-bottom: 100px;
         margin-left: 20px;
-            }
+    }
 
     #team .card:hover {
-        /* width: 50%; */
         background: #e74c3c;
         color: #fff;
         border-radius: 5px;
