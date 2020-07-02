@@ -8,6 +8,9 @@
   },
   "author": "Emmanuel Kwabena Kyeremeh",
   "license": "ISC",
+  "engines": {
+    "node": "12.16.2"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.3",
