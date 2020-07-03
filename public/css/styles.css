@@ -570,37 +570,164 @@ a:hover.links {
 
 }
 
-
-/* @media only screen and (max-width:960px) {
-    .carousel-caption {
-        bottom: 240px;
-    }
-    .carousel-caption h5 {
-        font-size:30px;
-    }
-    .carousel-caption h6 {
-        font-size: 20px;
+/* iphone 6/7/plus view */
+@media only screen and (max-width:360px) {
+    .navbar-light .navbar-brand {
+        font-size: 2500px;
+        padding: 5px 5px;
     }
 
-    #team .card{
-        margin-bottom:100px;
+    .navbar-light .navbar-nav .nav-link{
+        text-shadow: 2.5px 2.5px 2.5px black;
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        color: #fff;
+    }
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0);
     }
 
-    #team .welfareCardPositioning{
-        margin-left:300px;;
+    .navbar-toggler {
+        padding: 1px 1px;
+        font-size: 15px;
+        line-height: 0.1;
+        background: #fff;
     }
     
-    } */
+    .nav-link {
+        color: #fff;
+    }
 
-    /* .boxed {
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .carousel-caption {
+        padding-bottom: 420px;
+        /* padding-bottom:750% */
+
+    }
+
+    .carousel-caption h5 {
+        font-size: 25px;
+        /* font-size:156.25%; */
+    }
+
+    .carousel-caption p {
+        /* font-size: 18px; */
+        font-size:112.5;
+    }
+
+    .carousel-caption a {
+        padding: 10px 25px;
+        /* padding:62.5% 156.25%; */
+    }
+
+    /* setting the new effect of the AboutUS section */
+
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: block;
+    }
+    .welfareCenter {
+        position: relative;
+        margin-left: .5%;
+        display: block;
+        margin-bottom: 5%;
+        /* width: 15%; */
+    }
+
+    /* Adding Padding and other effects to Vision section and Mission Section */
+    .vision {
+        padding: 25px 50px 75px;
+    }
+
+    .mission {
+        padding: 25px 50px 75px;
+    }
+
+    .projects-we-undertake {
+        padding: 25px 50px 75px;
+    }
+
+    .target-beneficiaries {
+        padding: 25px 50px 75px;
+        line-height: 1.2;
+    }
+
+    div.projects-we-undertake {
+        line-height: 2.5;
+    }
+
+    .boxed {
         border-style: dotted;
         border: 2px white;
         height: 0%;
         box-shadow: 3px 3px 25px #e74c3c;
-        margin-left: 10%;
-        width: 70%;
+        margin-left: 25%;
+        width: 50%;
 
-    } */
+    }
+
+    #content-mobile .boxed:hover {
+        background-color: rgb(206, 205, 205);
+        border: none;
+        box-shadow: 2px 2px 5px #9E9E9E;
+    }
+
+    #content-mobile .boxed:after {
+        background-color: white;
+        content: "";
+    }
+
+    #team img {
+        margin-top: -80px;
+
+    }
+
+    #team i {
+        font-size: 26px;
+    }
+
+    #team p {
+        font-weight: 300;
+    }
+
+
+    #team .card {
+        border-radius: 0;
+        box-shadow: 5px 5px 15px #e74c3c;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        margin-bottom: 200px;
+        /* margin-bottom:50%; */
+        margin-left: 20px;
+        /* margin-left:125%; */
+    
+
+    }
+
+    #team .card:hover {
+        background: #e74c3c;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 5px 5px 10px #9E9E9E;
+    }
+
+    #team .card:hover h3,
+    #team .card:hover i {
+        color: #fff;
+    }
+
+
+}
+
 
 
 /* PHONE VIEW CSS */
