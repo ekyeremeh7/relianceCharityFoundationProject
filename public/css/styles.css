@@ -761,8 +761,10 @@ a:hover.links {
 @media only screen and (max-width:1132px) {
     
     .navbar-light .navbar-brand {
-        font-size: 20px;
-        padding: 4px 0.5px;
+        font-size: 17px;
+        /* padding: 4px 2px; */
+        padding-left: 0.5px;
+        margin-left:5px;
     }
 
     .navbar-light .navbar-nav .nav-link{
@@ -777,14 +779,18 @@ a:hover.links {
     }
 
     .navbar-toggler {
-        padding: 1px 1px;
-        font-size: 15px;
+        padding: 2px 2px;
+        font-size: 10px;
         line-height: 0.1;
         background: #fff;
+        margin-right: 30px;
     }
     
     .nav-link {
         color: #fff;
+        line-height: 0.1;
+        font-size: 16px;
+    
     }
 
     .navbar-collapse {
@@ -860,7 +866,7 @@ a:hover.links {
 
     .projects-we-undertake {
         /* padding: 25px 45px 75px; */
-        /* text-align: center; */
+        text-align: center;
         padding:20px 30px 45px;
     }
 
@@ -880,8 +886,10 @@ a:hover.links {
         border: 2px white;
         height: 0%;
         box-shadow: 3px 3px 25px #e74c3c;
-        margin-left: 25%;
-        width: 50%;
+        /* margin-left: 25%; */
+        margin-left:20%;
+        width:60%;
+        /* width: 50%; */
 
     }
 
