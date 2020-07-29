@@ -761,10 +761,10 @@ a:hover.links {
 @media only screen and (max-width:1132px) {
     
     .navbar-light .navbar-brand {
-        font-size: 17px;
+        font-size: 19px;
         /* padding: 4px 2px; */
         padding-left: 0.5px;
-        margin-left:5px;
+        margin-left:2px;
     }
 
     .navbar-light .navbar-nav .nav-link{
@@ -780,16 +780,16 @@ a:hover.links {
 
     .navbar-toggler {
         padding: 2px 2px;
-        font-size: 10px;
+        /* font-size: 10px; */
         line-height: 0.1;
         background: #fff;
-        margin-right: 30px;
+        margin-right: 40px;
     }
     
     .nav-link {
         color: #fff;
         line-height: 0.1;
-        font-size: 16px;
+        font-size: 15px;
     
     }
 
