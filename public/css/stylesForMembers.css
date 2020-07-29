@@ -64,7 +64,10 @@ h6 {
 }
 
 .ejs-page {
-    margin: 100px 110px 100px 170px;
+    /* margin: 100px 110px 100px 170px; */
+    margin-top: 10%;
+    margin-left: 11%;
+    margin-right: 12%;
     line-height: 1.2;
     font-size: 15px;
 
@@ -184,6 +187,7 @@ hr {
     font-size:50px;
 }
 
+
 }
 
 /* 906 SCREEN DISPLAY */
@@ -200,6 +204,8 @@ hr {
         text-align:left;
         margin:150px 60px 0px 220px
     }
+
+    
 }
 
 /* ENDS HERE */
@@ -236,7 +242,7 @@ hr {
         height: 1000px;
         width:420px;
         text-align:left;
-        margin:150px 60px 0px 200px
+        margin:150px 60px 0px 200px;
     }
 }
 
@@ -254,7 +260,7 @@ hr {
         height: 1000px;
         width:420px;
         text-align:left;
-        margin:150px 60px 0px 250px
+        margin:150px 60px 0px 250px;
     }
 }
 
@@ -272,7 +278,7 @@ hr {
         height: 1000px;
         width:420px;
         text-align:left;
-        margin:150px 60px 0px 280px
+        margin:150px 60px 0px 280px;
     }
 }
 

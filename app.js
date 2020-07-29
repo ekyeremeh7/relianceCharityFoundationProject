@@ -14,7 +14,11 @@ const headOfLogisticsInfo = "Arthur William, A creative Director and an Entrepre
 const headOfMediaAndPublicityInfo = "De-Graft Amihere widely known as Degraft Daniels is a young talented entrepreneur and functions as the creative director for the Fashion label 'Dgraft Daniels'. Works at Global Ovations as a Marketing Executive and an event producer. Produced events like the Mercedes Benz Fashion Week Accra/Global Fashion week, Women's Choice Awards Africa and IAFE. De-Graft Amihere is a student, a team player, lover of art.";
 const treasurerInfo = "Janet Quarshie, A political science student and information studies student of the university of Ghana. She is a supervisor in a research market firm called Elparah Consult and a Treasurer for Reliance Charity Foundation. She has seven years experience of market research.Jane is a music lover and lively person. She is an advisor to many, multifaceted and loves to empower the youth to come out with their best.";
 const welfareOfficerInfo = "Nimarko Bernice Afrima, A student of University of Professional Studies(UPSA) reading Business Administration. She is a good reader and loves music. Nimarko Bernice Afrima is good at keeping healthy relationship and bringing out the best in people, motivating people is one of the things she does.";
-const financialSecretaryInfo="Obeng-Tawiah Patrick, A financial Accounting student of Accra Technical University as well as business consultant at Wilpamo ventures and a Personal Assistant to the CEO of Wilpamo Ventures.Also a sales personnelat Kok's Consult.";
+const financialSecretaryInfo="Kwakye-Fianko Andrew a student of Accra Technical University pursuing Accounting. Andy is a self motivated person who aims to help change lives positively by impacting the society. He is God fearing, honest, discipline and a music lover.";
+const patronInfo = "Mr. Osei-Nyamekye is a Planning & Social Development advocate.Formal CEO of Cypress Communications-Ghana. Media Expert. External lecturer at African Leadership International. Theologian & Leadership lecturer at BETH College. Business incubator and social entrepreneurship coach. Campus Director for Hult Foundation / United Nations program for tertiary students. A member of African Association of Ordained Christian Ministers (AAOCM).(0505409713)"
+const samuelInfo ="Osei Kwame Samuel is a student of the Kwame Nkrumah University of Science And Technology. He offers Bsc. Computer Science and is currently in his final year of study. He is also a member of the Computer Science Association of Ghana. He is a result-driven and detail-oriented individual capable of aiding in the management of technical support operations, as well as introducing new ideas to promote operational efficiency.";
+
+
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({
@@ -35,6 +39,8 @@ app.get("/", function (req, res) {
         treasurerContent: treasurerInfo,
         welfareOfficerContent: welfareOfficerInfo,
         financialSecretaryContent: financialSecretaryInfo,
+        patronContent:patronInfo,
+        samuelContent:samuelInfo
     });
 });
   
@@ -100,6 +106,20 @@ app.get("/members/welfareOfficer", function (req, res) {
 app.get("/members/financialSecretary",function(req,res){
     res.render("financialSecretary",{
         financialSecretaryContent:financialSecretaryInfo
+    })
+}
+);
+
+app.get("/members/patron",function(req,res){
+    res.render("patron",{
+        patronContent:patronInfo
+    })
+}
+);
+
+app.get("/members/samuel",function(req,res){
+    res.render("samuel",{
+        samuelContent:samuelInfo
     })
 }
 );

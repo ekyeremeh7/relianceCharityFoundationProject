@@ -57,6 +57,7 @@
 
 .nav-item {
     margin: 5px 2px 5px;
+    /* margin:0.05%; */
 }
 
 .navbar-light .navbar-brand .navbar-nav .nav-link:focus,
@@ -203,6 +204,15 @@ hr {
     margin-bottom: 5%;
 }
 
+.patronCenter {
+    position: relative;
+    margin-left: 38%;
+    display: block;
+    margin-bottom: 5%;
+}
+
+
+
 
 /**
  * Circle Styles
@@ -322,7 +332,12 @@ h6 {
 }
 
 .carousel-caption {
-    bottom: 315px;
+    /* bottom: 315px; */
+    bottom:39%;
+}
+
+.added-caption-bottom{
+    bottom:41%;
 }
 
 .carousel-caption h5 {
@@ -571,7 +586,7 @@ a:hover.links {
 }
 
 /* iphone 6/7/plus view */
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:414px) {
     .navbar-light .navbar-brand {
         font-size: 2500px;
         padding: 5px 5px;
@@ -731,7 +746,8 @@ a:hover.links {
 
 
 /* PHONE VIEW CSS */
-@media only screen and (max-width:960px) {
+/* max-width:960px */
+@media only screen and (max-width:1132px) {
     
     .navbar-light .navbar-brand {
         font-size: 20px;
@@ -796,10 +812,19 @@ a:hover.links {
     }
     .welfareCenter {
         position: relative;
-        margin-left: 5%;
+        margin-left: 2%;
         display: block;
         margin-bottom: 5%;
-        /* width: 15%; */
+        /* width: .5%; */
+    }
+    
+
+    .patronCenter {
+        position: relative;
+        margin-left: 2%;
+        display: block;
+        margin-bottom: 5%;
+        /* width: .5%; */
     }
     
 
@@ -873,9 +898,10 @@ a:hover.links {
         transition: all 0.3s ease-in;
         -webkit-transition: all 0.3s ease-in;
         -moz-transition: all 0.3s ease-in;
-        margin-bottom: 200px;
-        /* margin-bottom:50%; */
+        /* margin-bottom: 200px; */
+        margin-bottom:50%;
         margin-left: 20px;
+        /* max-width: fit-content; */
         /* margin-left:125%; */
     
 

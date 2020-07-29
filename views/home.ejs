@@ -33,7 +33,7 @@
 
       <div class="carousel-item">
         <img src="images/frank-mckenna-EgB1uSU5tRA-unsplash.jpg" class="d-block w-100 banner" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption added-caption-bottom d-none d-md-block">
           <h5 class="animate__animated animate__zoomIn  animate__delay-1s">WHY WE HELP</h5>
           <p class="animate__animated animate__fadeInLeft  animate__delay-2s ">To put smiles on
             the face of the destitute Kids.</p>
@@ -42,7 +42,7 @@
 
       <div class="carousel-item">
         <img src="images/JejShY.jpg" class="d-block w-100 banner " alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption added-caption-bottom d-none d-md-block">
           <h5 class="animate__animated animate__zoomIn  animate__delay-1s">WHY WE HELP</h5>
           <p class="animate__animated animate__fadeInRight  animate__delay-2s ">
             To help the Vulnerable
@@ -64,8 +64,8 @@
 
 
       <div class="carousel-item">
-        <img src="images/oldwinnies.jpg" class="d-block w-100 last-slide-blur-effect" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <img src="images/oldwinnies.jpg" class="d-block w-100 last-slide-blur-effect banner" alt="...">
+        <div class="carousel-caption added-caption-bottom d-none d-md-block">
           <h5 class="animate__animated animate__zoomIn  animate__delay-1s">WHY WE HELP</h5>
           <p class="animate__animated animate__fadeInRight  animate__delay-2s ">
             To provide support to Widows and Adults in Deprived Areas.
@@ -303,16 +303,17 @@
 
 <section id="team">
   <div class="container-fluid my-3 py-5 text-center">
+    
     <div class="row mb-5">
       <div class="col heading">
         <h1>Meet the Team</h1>
       </div>
     </div>
 
-    <br /><br />
+
     <div class="row">
+      
       <!-- FOUNDER CARD -->
-      <!-- <div class="members-container"> -->
       <div class="col-lg-3 col-md-6 animate__animated animate__bounceInLeft animate__delay-1s	1s">
         <div class="card">
           <div class="card-body">
@@ -353,8 +354,8 @@
       <!-- FOUNDER CARD ENDS HERE -->
 
       <!-- GENERAL SECRETARY BEGINS HERE-->
+    
       <div class="col-lg-3 col-md-6 animate__animated animate__bounceInLeft  animate__delay-2s	2s">
-        <!-- <div class="members-container"> -->
         <div class="card">
           <div class="card-body">
             <img src="images/esther-safoa-opoku-General-secretary.jpg" alt=""
@@ -394,8 +395,9 @@
 
 
       <!-- P.R.O  BEGINS HERE-->
+   
       <div class="col-lg-3 col-md-6 animate__animated animate__bounceInLeft  animate__delay-3s 3s">
-        <!-- <div class="members-container"> -->
+    
         <div class="card">
           <div class="card-body">
             <img src="images/mensah-stephen-PRO.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
@@ -433,6 +435,7 @@
 
 
       <!--  ORGANIZER  BEGINS HERE-->
+   
       <div class="col-lg-3 col-md-6 animate__animated animate__bounceInLeft  animate__delay-4s 4s">
         <div class="card">
           <div class="card-body">
@@ -628,8 +631,8 @@
     <div class="row ">
     
       <!-- WELFARE OFFICER BEGINS HERE-->
-      
-      <div class="col-lg-3 col-md-5  welfareCenter animate__animated animate__bounceInLeft  animate__delay-5s 5s">
+      <!-- welfareCenter -->
+      <div class="col-lg-3 col-md-6  animate__animated animate__bounceInLeft  animate__delay-5s 5s">
       
           <div class="card ">
             <div class="card-body">
@@ -668,14 +671,14 @@
      
    
        <!-- FINANCIAL SECRETARY OFFICER BEGINS HERE-->
-      
-       <div class="col-lg-3 col-md-5  welfareCenter animate__animated animate__bounceInLeft  animate__delay-5s 5s">
+       <!-- welfareCenter -->
+       <div class="col-lg-3 col-md-6  animate__animated animate__bounceInLeft  animate__delay-5s 5s">
       
         <div class="card">
           <div class="card-body">
-            <img src="images/obeng-tawiah-patrick-financial-secretary.jpg" alt=""
+            <img src="images/kwakye-fianko-financial-secretary.jpg" alt=""
               class="img-fluid bernice-rounded-circle w-50 mb-3">
-            <h3>Obeng Tawiah Patrick </h3>
+            <h3>Kwakye-Fianko Andrew </h3>
             <h5 id="#titles">Financial Secretary</h5>
             <p>
               <%=financialSecretaryContent.substring(0,200)+"..."%>
@@ -704,27 +707,98 @@
     </div>
     <!-- FINANCIAL SECRETARY CARD ENDS HERE -->
 
-        
 
+    <!-- PATRON BEGINS HERE-->
+ <!-- patronCenter -->
+ <div class="col-lg-3 col-md-6  animate__animated animate__bounceInLeft  animate__delay-5s 5s">
+      
+  <div class="card">
+    <div class="card-body">
+      <img src="images/patron.jpg" alt=""
+        class="img-fluid bernice-rounded-circle w-50 mb-3">
+      <h3>Mr. Osei-Nyamekye </h3>
+      <h5 id="#titles">Patron</h5>
+      <p>
+        <%=patronContent.substring(0,200)+"..."%>
+        <a href="/members/patron" +> Read More </a>
+      </p>
+      <div class="d-flex flex-row justify-content-center">
+        <div class="p-4">
+          <a href="https://www.facebook.com">
+            <i class="social-icon fab fa-facebook"></i>
+          </a>
+        </div>
+        <div class="p-4">
+          <a href="https://www.twitter.com">
+            <i class="social-icon fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="p-4">
+          <a href="https://www.instagram.com">
+            <i class="social-icon fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
 
-     <div class="row">
-
-
-         </div>
-
+</div>
+<!--PATRON CARD ENDS HERE -->
 
 
+<!-- SAMUEL BEGINS HERE-->
+ <!-- patronCenter -->
+ <div class="col-lg-3 col-md-6  animate__animated animate__bounceInLeft  animate__delay-5s 5s">
+      
+  <div class="card">
+    <div class="card-body">
+      <img src="images/samuel.jpg" alt=""
+        class="img-fluid bernice-rounded-circle w-50 mb-3">
+      <h3>Osei Kwame Samuel </h3>
+      <h5 id="#titles">Member</h5>
+      <p>
+        <%=patronContent.substring(0,200)+"..."%>
+        <a href="/members/samuel" +> Read More </a>
+      </p>
+      <div class="d-flex flex-row justify-content-center">
+        <div class="p-4">
+          <a href="https://www.facebook.com">
+            <i class="social-icon fab fa-facebook"></i>
+          </a>
+        </div>
+        <div class="p-4">
+          <a href="https://www.twitter.com">
+            <i class="social-icon fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="p-4">
+          <a href="https://www.instagram.com">
+            <i class="social-icon fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--SAMUEL CARD ENDS HERE -->
+        
+     
+    </div>
+    <!-- LAST ROW ENDS HERE -->
+    <hr>
+
+  
     <br/>
     <br/>
 
   
-    </div>
+
+    
 
 
-  </div>
-
-
+   </div>
+   
 
 </section>
 
