@@ -108,6 +108,10 @@
     -webkit-filter: blur(1.5px);
 }
 
+.mobile-img{
+    opacity:0.95 ;
+}
+
 /* NAVBAR SECTION ENDS HERE */
 
 
@@ -527,9 +531,15 @@ a:hover.links {
 .copyright {
     color: #EAF6F6;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 15px 2px 15px 2px;
    
+}
+.copyrightText{
+    color: #EAF6F6;
+    text-align: center;
+    font-size: 1rem;
+    margin: 15px 2px 15px 2px;
 }
 
 .bottom-container {
@@ -659,6 +669,7 @@ a:hover.links {
     /* Adding Padding and other effects to Vision section and Mission Section */
     .vision {
         padding: 25px 50px 75px;
+      
     }
 
     .mission {
@@ -751,7 +762,7 @@ a:hover.links {
     
     .navbar-light .navbar-brand {
         font-size: 20px;
-        padding: 5px 5px;
+        padding: 4px 0.5px;
     }
 
     .navbar-light .navbar-nav .nav-link{
@@ -837,19 +848,26 @@ a:hover.links {
    
     /* Adding Padding and other effects to Vision section and Mission Section */
     .vision {
-        padding: 25px 50px 75px;
+        /* padding: 25px 50px 75px; */
+        padding:20px 30px 45px;
     }
 
     .mission {
-        padding: 25px 50px 75px;
+        /* padding: 25px 50px 75px; 
+        */
+        padding:20px 30px 45px;
     }
 
     .projects-we-undertake {
-        padding: 25px 50px 75px;
+        /* padding: 25px 45px 75px; */
+        /* text-align: center; */
+        padding:20px 30px 45px;
     }
 
     .target-beneficiaries {
-        padding: 25px 50px 75px;
+        /* padding: 25px 50px 75px; */
+        text-align: center;
+        padding:20px 30px 45px;
         line-height: 1.2;
     }
 
@@ -871,11 +889,13 @@ a:hover.links {
         background-color: rgb(206, 205, 205);
         border: none;
         box-shadow: 2px 2px 5px #9E9E9E;
+     
     }
 
     #content-mobile .boxed:after {
         background-color: white;
-        content: "";
+        /* content: ""; */
+     
     }
 
     #team img {
