@@ -10,6 +10,12 @@
 }
 
 
+/* LAST ROW MARGIN */
+.last-row-margin{
+    margin-left:10%;
+    margin-right:10%;
+}
+
 /* NAVBAR SECTION */
 .navbar-light .navbar-brand {
     color: #fff;
@@ -854,6 +860,12 @@ a:hover.links {
         margin-bottom: 5%;
         /* width: .5%; */
     }
+
+    /* LAST ROW MARGIN */
+.last-row-margin{
+    margin-left:0%;
+    margin-right:0%;
+}
     
 
     /* #team .welfareCardPositioning{ */
