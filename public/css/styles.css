@@ -1,3 +1,10 @@
+.myLink{
+    color: white;
+    text-align: left;
+    font-family: ubuntu;
+    margin-left: 5px;
+}
+
 /* VIEWPORT SETTINGS */
 @viewport{
     zoom: 1.0;
