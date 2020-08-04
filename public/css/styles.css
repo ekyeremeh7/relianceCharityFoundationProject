@@ -19,8 +19,8 @@
 
 /* LAST ROW MARGIN */
 .last-row-margin{
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:0%;
+    margin-right:0%;
 }
 
 /* NAVBAR SECTION */
@@ -104,8 +104,9 @@
 #content-mobile {
     display: none;
 
-
 }
+
+
 
 /* NAVBAR PICTURE BLURRING */
 .mobile-effect {

@@ -20,7 +20,7 @@ const samuelInfo ="Osei Kwame Samuel is a student of the Kwame Nkrumah Universit
 const owusuahAgyepongInfo = " Owusuah Agyepong , A past student of Achimota College and Pharmatrust Professional College. She is currently the CEO of Cici's cosmetics. Owusuah has a heart of gold and her love for humanity is one in a million. She believes that, every child should be allowed to have access to good health and education no matter the tribe affiliation and cultural identity.";
 const promiseKateyInfo ="Promise Katey is a Public Relations student in the Accra Technical University. He has the love for the humanity and always  wants to see people in shape and form. He is currently the youth Vice President of Redeemers Church.";
 const amoahMercyInfo =" Amoah Mercy, the CEO of 'Olokos's closet'. She is an affable young lady who believes a future should be found in a safe home or classroom than the street. She is industrious , hardworking and obedient. ";
-
+const obengPatrickInfo = "Obeng-Tawiah Patrick, a Financial Accounting student of Accra Technical University as well as a business consultant at Wilpamo Ventures and a Personal Assistant to the CEO of Wilpamo Ventures. Patrick is also a Sales personnel at Kok's Consult."
 
 app.set('view engine', 'ejs');
 
@@ -47,6 +47,7 @@ app.get("/", function (req, res) {
         owusuahAgyepongContent:owusuahAgyepongInfo,
         promiseKateyContent: promiseKateyInfo,
         amoahMercyContent:amoahMercyInfo,
+        obengPatrickContent: obengPatrickInfo,
 
     });
 });
@@ -152,6 +153,12 @@ app.get("/members/amoahMercy",function(req,res){
     })
 }
 );
+
+app.get("/members/obengPatrick", function (req, res) {
+    res.render("obengPatrick", {
+        obengPatrickContent: obengPatrickInfo
+    });
+});
 
 let port = process.env.PORT;
 if (port == null || port == "") {
