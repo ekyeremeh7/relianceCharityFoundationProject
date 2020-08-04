@@ -859,7 +859,9 @@ a:hover.links {
     bottom:22%;
 }
 
-
+#content-mobile .added-bottom{
+    bottom: 15%;
+}
     /* setting the new effect of the AboutUS section */
 
     #content-desktop {
