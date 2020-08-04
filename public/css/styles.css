@@ -1,3 +1,4 @@
+
 .myLink{
     color: white;
     text-align: left;
@@ -842,6 +843,22 @@ a:hover.links {
         padding: 10px 25px;
         /* padding:62.5% 156.25%; */
     }
+
+    /* TARGETING THE H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
+#content-mobile p{
+    font-size:12px;
+    letter-spacing: 2px;
+
+}
+
+#content-mobile h5{
+    font-size:17px;
+}
+#content-mobile .carousel-caption {
+    /* bottom: 315px; */
+    bottom:29%;
+}
+
 
     /* setting the new effect of the AboutUS section */
 
