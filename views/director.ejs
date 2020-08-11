@@ -1,5 +1,5 @@
 <%- include("partials/headerForMembers");-%>
-<div class="container ejs-page content-effect">
+<div id="content-desktop" class="container ejs-page content-effect">
     <center><h3 class="ejs-page-title">Director</h3></center>
     <center><img src="/images/richard-assiwu-director.jpg" alt="relianceCharity-director-image" class="ejs-rounded-pic"></center>
     <h6 class="ejsContent">
@@ -9,6 +9,18 @@
     </div>
 
 </div>
+
+
+<div id="content-mobile" class="container mobile-marginal">
+    <center><h3 class="ejs-page-title">Director</h3></center>
+    <center><img src="/images/richard-assiwu-director.jpg" alt="relianceCharity-director-image" class="ejs-rounded-pic"></center>
+<h6 class="mobileEjsContent">
+
+    <%=directorContent%>
+</h6>
+</div>
+
+
 
 <%- include("partials/footer");-%>
 
