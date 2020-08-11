@@ -612,11 +612,12 @@ a:hover.links {
         font-size:25px;
     }
     #aboutUs h3 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
    #aboutUs h6 {
-        font-size: 14px;
+        /* font-size: 14px; */
+        font-size: 17px;
     }
 
 }
@@ -787,7 +788,7 @@ a:hover.links {
 @media only screen and (max-width:1132px) {
     
     .navbar-light .navbar-brand {
-        font-size: 19px;
+        font-size: 25px;
         /* padding: 4px 2px; */
         padding-left: 0.5px;
         margin-left:2px;
@@ -815,7 +816,7 @@ a:hover.links {
     .nav-link {
         color: #fff;
         line-height: 0.1;
-        font-size: 15px;
+        font-size: 25px;
     
     }
 
@@ -846,13 +847,15 @@ a:hover.links {
 
     /* TARGETING THE H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
 #content-mobile p{
-    font-size:12px;
+    /* font-size:12px; */
+    font-size:18px;
     letter-spacing: 2px;
 
 }
 
 #content-mobile h5{
-    font-size:17px;
+    /* font-size:17px; */
+    font-size:30px;
 }
 #content-mobile .carousel-caption {
     /* bottom: 315px; */

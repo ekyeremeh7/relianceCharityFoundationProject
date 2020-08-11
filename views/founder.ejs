@@ -5,13 +5,24 @@
 <!-- <hr> -->
 
 <!-- <h3 class="founder-page-title"><center>Founder</center></h3> -->
-             <div class="container ejs-page content-effect">
+            
+<div id="content-desktop" class="container ejs-page content-effect">
                  <center><h3 class="ejs-page-title">Founder</h3></center>
-                 <center><img src="/images/founder-profile.jpg" alt="founder-image" class="ejs-rounded-pic"></center>
+                 <center><img src="/images/founder-profile.jpg" alt="relianceCharity-founder-image" class="ejs-rounded-pic"></center>
          <h6 class="ejsContent">
 
      <%=founderContent%>
          </h6>
      </div>
+
+
+     <div id="content-mobile" class="container mobile-marginal">
+        <center><h3 class="ejs-page-title">Founder</h3></center>
+        <center><img src="/images/founder-profile.jpg" alt="founder-image" class="ejs-rounded-pic"></center>
+<h6 class="mobileEjsContent">
+
+<%=founderContent%>
+</h6>
+</div>
     
 <%- include("partials/footer");-%>
