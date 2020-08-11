@@ -1,12 +1,12 @@
 /* VIEWPORT SETTINGS */
 @viewport{
-    zoom: 2.0;
+    zoom: 1.0;
     width: extend-to-zoom;
 }
 
 @-ms-viewport{
     width:extend-to-zoom;
-    zoom: 2;
+    zoom: 1;
 }
 /* USING CSS MAGIC TO SWITCH BETWEEN MOBILE AND DESKTOP VIEW */
     /* setting the new effect of the Members page section */
