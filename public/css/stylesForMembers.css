@@ -1,12 +1,12 @@
 /* VIEWPORT SETTINGS */
 @viewport{
-    zoom: 1.0;
+    zoom: 2.0;
     width: extend-to-zoom;
 }
 
 @-ms-viewport{
     width:extend-to-zoom;
-    zoom: 1;
+    zoom: 2;
 }
 /* USING CSS MAGIC TO SWITCH BETWEEN MOBILE AND DESKTOP VIEW */
     /* setting the new effect of the Members page section */
@@ -378,8 +378,8 @@ hr {
             }    
 
     .navbar-light .navbar-brand{
-        /* font-size:20px; */
-        font-size: 25px;
+        font-size:20px;
+        /* font-size: 25px; */
     }
 
     
@@ -391,7 +391,7 @@ hr {
     
     .mobileEjsContent{
         font-size:22px;
-        letter-spacing: 1px;
+        letter-spacing: 0.8px;
         margin-left: 1%;
         margin-right: 2%;
         padding-left: 2%;
