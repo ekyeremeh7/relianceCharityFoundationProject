@@ -1,3 +1,11 @@
+
+.myLink{
+    color: white;
+    text-align: left;
+    font-family: ubuntu;
+    margin-left: 5px;
+}
+
 /* VIEWPORT SETTINGS */
 @viewport{
     zoom: 1.0;
@@ -330,18 +338,13 @@ hr {
     }
 
     .navbar-toggler {
+        
         padding: 1px 3px;
+        /* padding-left: 2px; */
         font-size: 18px;
         line-height: 0.2;
         background: #fff;
     }
-
-    .navbar-light .navbar-brand{
-        font-size:18px;
-      
-   
-    }
-
 
     .content-effect {
         border-style: dotted;
@@ -379,7 +382,8 @@ hr {
 
     .navbar-light .navbar-brand{
         font-size:20px;
-        /* font-size: 25px; */
+        margin-left:.4px;
+      /* font-size: 25px; */
     }
 
     
@@ -402,6 +406,34 @@ hr {
 
     
  
+
+/* SETTING CONTACT US MOBILE VIEW */
+#contactUs h3{
+    font-size:24px;
+}
+    
+
+#contactUs h6{
+    font-size:18px;
+}
+
+ /* SETTING THE FOOTER MOBILE VIEW */
+    .copyright {
+        color: #EAF6F6;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 15px 1px 15px 2px;
+       
+    }
+    .copyrightText{
+        color: #EAF6F6;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 15px 1px 15px 2px;
+    }
+
 
 
 }
@@ -440,14 +472,14 @@ a:hover.links {
     .copyright {
         color: #EAF6F6;
         text-align: center;
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
         margin: 15px 2px 15px 2px;
        
     }
     .copyrightText{
         color: #EAF6F6;
         text-align: center;
-        font-size: 1rem;
+        /* font-size: 1rem; */
         margin: 15px 2px 15px 2px;
     }
 .bottom-container {

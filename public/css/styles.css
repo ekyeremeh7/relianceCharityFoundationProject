@@ -788,7 +788,7 @@ a:hover.links {
 @media only screen and (max-width:1132px) {
     
     .navbar-light .navbar-brand {
-        font-size: 18px;
+        font-size: 18.5px;
         /* padding: 4px 2px; */
         padding-left: 0.5px;
         margin-left:1px;
@@ -845,12 +845,23 @@ a:hover.links {
         /* padding:62.5% 156.25%; */
     }
 
-    /* TARGETING THE H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
+    /* TARGETING THE H1,H3,H6 ,H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
 #content-mobile p{
     /* font-size:12px; */
     font-size:18px;
     letter-spacing: 2px;
 
+}
+#content-mobile h1{
+    font-size: 40px;
+}
+
+#content-mobile h3{
+    font-size: 25px;
+}
+
+#content-mobile h6{
+    font-size: 18px;
 }
 
 #content-mobile h5{
@@ -1002,8 +1013,30 @@ a:hover.links {
     }
 
 
-
+/* SETTING CONTACT US MOBILE VIEW */
+#contactUs h3{
+    font-size:24px;
+}
     
+
+#contactUs h6{
+    font-size:18px;
+}
+
+ /* SETTING THE FOOTER MOBILE VIEW */
+    .copyright {
+        color: #EAF6F6;
+        text-align: center;
+        font-size: 18px;
+        margin: 15px 1px 15px 2px;
+       
+    }
+    .copyrightText{
+        color: #EAF6F6;
+        text-align: center;
+        font-size: 18px;
+        margin: 15px 1px 15px 2px;
+    }
 
 }
 
