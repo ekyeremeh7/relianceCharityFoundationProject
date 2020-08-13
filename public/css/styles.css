@@ -1,3 +1,17 @@
+/* SETTING THE BODY TO BE FIXED */
+/* body{
+    position: absolute;
+    width: 100vw;
+}
+ */
+
+ html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+/* SETTING THE BODY ENDS HERE */
 
 .myLink{
     color: white;
@@ -28,7 +42,9 @@
 .navbar-light .navbar-brand {
     color: #fff;
     text-shadow: 2.5px 2.5px 2.5px black;
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 1.580em;
+
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -37,14 +53,14 @@
     margin: 20px 0;
 }
 
-.banner {
+/* .banner {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
 
-}
+} */
 
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
@@ -76,7 +92,8 @@
 
 .nav-link {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size:	1.250em ;
     font-weight: 800;
    }
 
@@ -149,7 +166,8 @@
 }
 
 .quote-ejs-page {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 	1.550em;
     font-style: italic;
 
 }
@@ -189,7 +207,8 @@
 }
 
 .ejsContent {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 	1.250em;
     text-align: left;
     }
 
@@ -215,7 +234,8 @@ h4 {
 .ejs-page {
     margin: 100px 100px 100px 100px;
     height: 100px;
-    font-size: 13px;
+    /* font-size: 18px; */
+    font-size: 1.125em;
 
 }
 
@@ -306,7 +326,8 @@ h6 {
 
 .listElements {
     font-weight: 300;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 	1.250em	;
 }
 
 #aboutUs .circle {
@@ -373,7 +394,8 @@ h6 {
 
 .carousel-caption h5 {
 
-    font-size: 45px;
+    /* font-size: 45px; */
+    font-size: 2.290em;
     /* font-weight:bold; */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -387,7 +409,8 @@ h6 {
 .carousel-caption p {
     width: 75%;
     margin: auto;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.250em;
     line-height: 1.9;
 
 }
@@ -423,7 +446,8 @@ h6 {
 }
 
 h3 {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size:1.500em ;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -433,12 +457,14 @@ h3 {
 }
 
 #team i {
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size:1.290em ;
 }
 
 #team p {
     font-weight: 300;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.250em	;
     text-align:left;
 
 }
@@ -550,10 +576,10 @@ a:hover.links {
     font-family: 'Merriweather', serif;
 }
 
-.contact-message {
+/* .contact-message {
     width: 40%;
     margin: 40px auto 60px;
-}
+} */
 
 .copyright {
     color: #EAF6F6;
@@ -587,7 +613,8 @@ a:hover.links {
     border-radius: 8px;
     font-family: Monospace;
     color: #ffffff;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.290em;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     box-shadow: 1px 1px 20px 0px #363232;
@@ -610,15 +637,18 @@ a:hover.links {
         bottom: 370px;
     }
     .carousel-caption h5 {
-        font-size:25px;
+        /* font-size:25px; */
+        font-size: 1.290em;
     }
     #aboutUs h3 {
-        font-size: 25px;
+        /* font-size: 25px; */
+        font-size: 1.290em;
     }
 
    #aboutUs h6 {
         /* font-size: 14px; */
-        font-size: 17px;
+        /* font-size: 20px; */
+        font-size: 1.250em;
     }
 
 }
@@ -643,7 +673,8 @@ a:hover.links {
 
     .navbar-toggler {
         padding: 1px 1px;
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size: 	1.188em	;
         line-height: 0.1;
         background: #fff;
     }
@@ -663,8 +694,8 @@ a:hover.links {
     }
 
     .carousel-caption h5 {
-        font-size: 25px;
-        /* font-size:156.25%; */
+        /* font-size: 25px; */
+          font-size:1.316em ;
     }
 
     .carousel-caption p {
@@ -744,7 +775,8 @@ a:hover.links {
     }
 
     #team i {
-        font-size: 26px;
+        /* font-size: 26px; */
+        font-size:1.398em ;
     }
 
     #team p {
@@ -789,7 +821,8 @@ a:hover.links {
 @media only screen and (max-width:1132px) {
     
     .navbar-light .navbar-brand {
-        font-size: 18.5px;
+        /* font-size: 18.5px; */
+        font-size: 	1.130em;
         /* padding: 4px 2px; */
         padding-left: 0.5px;
         margin-left:1px;
@@ -817,8 +850,8 @@ a:hover.links {
     .nav-link {
         color: #fff;
         line-height: 0.1;
-        font-size: 25px;
-    
+        /* font-size: 25px; */
+        font-size: 1.45em;
     }
 
     .navbar-collapse {
@@ -832,14 +865,14 @@ a:hover.links {
     }
 
     .carousel-caption h5 {
-        font-size: 25px;
-        /* font-size:156.25%; */
+        /* font-size: 25px; */
+        font-size: 1.45em;
     }
 
-    .carousel-caption p {
+    /* .carousel-caption p { */
         /* font-size: 18px; */
-        font-size:112.5;
-    }
+        /* font-size:112.5;
+    } */
 
     .carousel-caption a {
         padding: 10px 25px;
@@ -854,26 +887,30 @@ a:hover.links {
     
     /* TARGETING THE H1,H3,H6 ,H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
 #content-mobile p{
-    /* font-size:12px; */
-    font-size:18px;
+    font-size: 1.125em;
+    /* font-size:18px; */
     letter-spacing: 2px;
 
 }
 #content-mobile h1{
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 2.5em;
 }
 
 #content-mobile h3{
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.45em;
 }
 
 #content-mobile h6{
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.125em;
 }
 
 #content-mobile h5{
-    /* font-size:17px; */
-    font-size:30px;
+
+    /* font-size:30px; */
+    font-size: 1.70em;
 }
 #content-mobile .carousel-caption {
     /* bottom: 315px; */
@@ -915,13 +952,6 @@ a:hover.links {
     margin-right:0%;
 }
     
-
-    /* #team .welfareCardPositioning{ */
-        /* margin-left:150px; */
-        /* margin-left:1562.5%; */
-        /* margin-top:15%;
-        margin-bottom: 15%; */
-    /* } */
    
     /* Adding Padding and other effects to Vision section and Mission Section */
     .vision {
@@ -1022,26 +1052,30 @@ a:hover.links {
 
 /* SETTING CONTACT US MOBILE VIEW */
 #contactUs h3{
-    font-size:24px;
+    /* font-size:24px; */
+    font-size: 1.333em;
 }
     
 
 #contactUs h6{
-    font-size:18px;
+    /* font-size:18px; */
+    font-size: 1.125em;
 }
 
  /* SETTING THE FOOTER MOBILE VIEW */
     .copyright {
         color: #EAF6F6;
         text-align: center;
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 1.125em;
         margin: 15px 1px 15px 2px;
        
     }
     .copyrightText{
         color: #EAF6F6;
         text-align: center;
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 1.125em;
         margin: 15px 1px 15px 2px;
     }
 

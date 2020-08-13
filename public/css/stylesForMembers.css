@@ -1,3 +1,17 @@
+/* SETTING THE BODY TO BE FIXED */
+/* body{
+    position: absolute;
+    width: 100vw;
+}
+ */
+
+ html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+/* SETTING THE BODY ENDS HERE */
 
 .myLink{
     color: white;
@@ -37,7 +51,8 @@
 }
 
 .quote-ejs-page {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 	1.550em;
     font-style: italic;
 
 }
@@ -77,7 +92,8 @@
 }
 
 h3 {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 	1.500em;
     font-family: 'Ubuntu', 'sans-serif';
 }
 
@@ -102,8 +118,8 @@ h6 {
     margin-left: 11%;
     margin-right: 12%;
     line-height: 1.2;
-    font-size: 15px;
-
+    /* font-size: 19px; */
+    font-size:	1.250em ;
 }
 
 hr {
@@ -137,7 +153,8 @@ hr {
 
 
 .ejsContent {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size:	1.250em ;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -155,7 +172,8 @@ hr {
 .navbar-light .navbar-brand {
     color: #fff;
     text-shadow: 2.5px 2.5px 2.5px black;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 	1.550em;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -195,7 +213,8 @@ hr {
 .nav-link {
     /* line-height: 0.1; */
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size:	1.250em  ;
     font-weight: 800;
    }
 
@@ -219,7 +238,8 @@ hr {
 
 }
 .carousel-caption h5{
-    font-size:50px;
+    /* font-size:50px; */
+    font-size: 2.932em;
 }
 
 
@@ -341,7 +361,8 @@ hr {
 .nav-link {
     /* line-height: 0.1; */
     font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 	1.550em;
     font-weight: 800;
    }
 
@@ -350,7 +371,8 @@ hr {
         
         padding: 1px 3px;
         /* padding-left: 2px; */
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 1.125em;
         line-height: 0.2;
         background: #fff;
     }
@@ -384,13 +406,15 @@ hr {
 
 
     .ejsContent {
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size:	1.250em ;
         margin-left: auto;
         margin-right: auto;
             }    
 
     .navbar-light .navbar-brand{
-        font-size:20px;
+        /* font-size:20px; */
+        font-size:	1.250em ;
         margin-left:.4px;
       /* font-size: 25px; */
     }
@@ -418,19 +442,22 @@ hr {
 
 /* SETTING CONTACT US MOBILE VIEW */
 #contactUs h3{
-    font-size:24px;
+    /* font-size:24px; */
+    font-size:1.500em ;
 }
     
 
 #contactUs h6{
-    font-size:18px;
+    /* font-size:18px; */
+    font-size: 1.125em;
 }
 
  /* SETTING THE FOOTER MOBILE VIEW */
     .copyright {
         color: #EAF6F6;
         text-align: center;
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 1.125em;
         font-weight: 600;
         margin: 15px 1px 15px 2px;
        
@@ -439,7 +466,8 @@ hr {
         color: #EAF6F6;
         text-align: center;
         font-weight: 500;
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 1.125em;
         margin: 15px 1px 15px 2px;
     }
 
