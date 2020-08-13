@@ -92,7 +92,8 @@
 }
 
 .w-100 {
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
 }
 
 
@@ -845,6 +846,12 @@ a:hover.links {
         /* padding:62.5% 156.25%; */
     }
 
+    .w-100 {
+        height: 100vh;
+        /* height: auto; */
+    }
+
+    
     /* TARGETING THE H1,H3,H6 ,H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
 #content-mobile p{
     /* font-size:12px; */
