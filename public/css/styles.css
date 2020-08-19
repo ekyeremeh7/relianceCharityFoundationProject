@@ -163,7 +163,17 @@
 .dropdown-menu{
     background: transparent;
 }
- 
+
+.dropdown-margin{
+    margin-bottom: 0.2px;
+    margin-top:0.2px;
+    margin-left: -3px;
+    margin-right: -5px;
+    /* text-align: center; */
+}
+
+
+ /* GET INVOLVED DROPDOWN SECTION ENDS HERE */
 
 /* NAVBAR SECTION ENDS HERE */
 
@@ -193,7 +203,9 @@
     padding:10px 10px 40px 15px;
   
 }
-
+/* .boxedMargin{
+    margin-bottom: 100px;
+} */
 .boxedStyle {
     border-style: dotted;
     border: 2px white;
@@ -251,6 +263,7 @@
     padding-bottom: 10%;
    
 }
+
 
 
 /*  DONATE SECTION ENDS HERE*/
@@ -720,6 +733,10 @@ h3 {
     font-family: 'Bree Serif', serif;
     color: #DC3522;
 }
+
+
+
+
 /* DONATE TO US PAGE EFFECTS ENDS HERE */
 
 
