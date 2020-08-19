@@ -160,6 +160,12 @@ app.get("/members/obengPatrick", function (req, res) {
     });
 });
 
+
+app.get("/donateUs", function (req, res) {
+    res.render("donateUs");
+});
+
+
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;

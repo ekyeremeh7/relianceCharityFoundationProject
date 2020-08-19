@@ -1,3 +1,5 @@
+
+
 /* SETTING THE BODY TO BE FIXED */
 /* body{
     position: absolute;
@@ -156,6 +158,13 @@
     opacity:0.95 ;
 }
 
+
+/* GET INVOLVED DROPDOWN SECTION */
+.dropdown-menu{
+    background: transparent;
+}
+ 
+
 /* NAVBAR SECTION ENDS HERE */
 
 
@@ -179,6 +188,71 @@
     font-style: bold;
     font-weight: 900;
 }
+
+.boxedPadding {
+    padding:10px 10px 40px 15px;
+  
+}
+
+.boxedStyle {
+    border-style: dotted;
+    border: 2px white;
+    height: 0%;
+    box-shadow: 3px 3px 25px #e74c3c;
+    /* margin-left: 25%; */
+    /* margin-left:20%; */
+    width:90%;
+    /* width: 50%; */
+
+}
+
+.bankBoxedStyle {
+    /* border-style: dotted; */
+    /* border: 2px white; */
+    /* height: 0%; */
+    /* box-shadow: 3px 3px 25px #e74c3c; */
+    /* margin-left: 25%; */
+    /* margin-left:20%; */
+    width:90%;
+    /* width: 50%; */
+
+    border-top: #DC3522;
+    border-bottom: #DC3522;
+    border-right:black;
+    border-left:black;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+
+#content-desktop .boxedStyle:hover {
+    background-color: rgb(206, 205, 205);
+    border: none;
+    box-shadow: 2px 2px 5px #9E9E9E;
+ 
+}
+
+#content-desktop .boxedStyle:after {
+    background-color: white;
+    /* content: ""; */
+ 
+}
+
+.bankAccount-border{
+    border-top: #DC3522;
+    border-bottom: #DC3522;
+    border-right:white;
+    border-style: dashed;
+    border-width: 1px;
+    margin-bottom: 10%;
+    /* margin: 0px 0px 200px 0px; */
+    padding-top: 5%;
+    padding-bottom: 10%;
+   
+}
+
+
 /*  DONATE SECTION ENDS HERE*/
 
 /* QUOTE SECTION */
@@ -193,10 +267,11 @@
     font-style: italic;
 
 }
-
+/* .quote-marginal{
+    margin-top: 300px;
+} */
 .quote {
     color: black;
-    ;
     font-style: normal;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -573,6 +648,83 @@ h3 {
 /* TEAM SECTION ENDS HERE */
 
 
+/* DONATE TO US PAGE EFFECTS STARTS HERE*/
+.donate-margin{
+   margin-top: 10%; 
+   margin-bottom: 100px;
+}
+.mobile-donate-margin{
+    margin-top:15%;
+    margin-left: 4%;
+    margin-right:2%;
+    margin-bottom:10%;
+}
+
+.form-border{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom:5%;
+    /* padding:10px 40px 80px 40px; */
+    /* border-top: #DC3522;
+    border-bottom: #DC3522;
+    border-left: #DC3522;
+    border-right: #DC3522;
+    border-width: 1px;
+    border-style: dashed; */
+    border-top: #DC3522;
+    border-bottom: #DC3522;
+    border-right:black;
+    border-left:black;
+    border-style: solid;
+    border-width: 1px;
+    background-color:#D9DDDC;
+    margin-bottom: 10%;
+
+}
+
+.form-margin {
+    margin-bottom: 100px;
+}
+
+
+#content-mobile .mobile-donate-margin{
+    margin-left: 2%;
+    margin-right:2%;
+}
+
+/* #content-desktop .bankBoxedStyle:hover {
+    background-color: rgb(206, 205, 205);
+    border: none;
+    box-shadow: 2px 2px 5px #9E9E9E;
+ 
+} */
+
+#content-desktop .bankBoxedStyle:after {
+    background-color: white;
+    /* content: ""; */
+ 
+}
+#content-desktop .viah3 {
+    color: #DC3522;
+    font-family: 'ubuntu';
+ 
+}
+
+.plea{
+    font-size: 25px;
+    margin-left:4%;
+    margin-right:4%;
+}
+.help-message{
+    font-family: 'Bree Serif', serif;
+    color: #DC3522;
+}
+/* DONATE TO US PAGE EFFECTS ENDS HERE */
+
+
+
+
 
 /* FOOTER SECTION */
 a {
@@ -880,6 +1032,13 @@ a:hover.links {
         background: rgba(0, 0, 0, 0);
     }
 
+
+    .dropdown-margin{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+
     .carousel-caption {
         padding-bottom: 120px;
         /* padding-bottom:750% */
@@ -1101,6 +1260,20 @@ a:hover.links {
         margin: 15px 1px 15px 2px;
     }
 
+    /* MOBILE VIEW OF DONATE US PAGE */
+#content-mobile .viah3{
+        color: #DC3522;
+        font-family: 'ubuntu';
+    }
+  
+    #content-mobile .plea{
+        font-size: 20px;
+        margin-left:4%;
+        margin-right:4%;
+    }
+    #content-mobile .help-message{
+        font-family: 'Bree Serif', serif;
+        color: #DC3522;
+    }
+
 }
-
-
