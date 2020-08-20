@@ -200,7 +200,7 @@
 }
 
 .boxedPadding {
-    padding:10px 10px 40px 15px;
+    padding:10px 10px 25px 15px;
   
 }
 /* .boxedMargin{
@@ -667,7 +667,7 @@ h3 {
    margin-bottom: 100px;
 }
 .mobile-donate-margin{
-    margin-top:15%;
+    margin-top:5%;
     margin-left: 4%;
     margin-right:2%;
     margin-bottom:10%;
@@ -702,6 +702,7 @@ h3 {
 
 
 #content-mobile .mobile-donate-margin{
+
     margin-left: 2%;
     margin-right:2%;
 }
@@ -1293,4 +1294,7 @@ a:hover.links {
         color: #DC3522;
     }
 
+    .donate-us-margin-top{
+        margin-top:20%;
+    }
 }
