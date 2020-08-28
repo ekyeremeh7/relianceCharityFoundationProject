@@ -662,6 +662,13 @@ h3 {
 
 
 /* DONATE TO US PAGE EFFECTS STARTS HERE*/
+.desktop-donate-margin{
+    margin-top:1%;
+    margin-left: 4%;
+    margin-right:2%;
+    margin-bottom:10%;
+}
+
 .donate-margin{
    margin-top: 10%; 
    margin-bottom: 100px;
@@ -735,8 +742,16 @@ h3 {
     color: #DC3522;
 }
 
+.messageAlignment{
+    text-align:left;
+}
 
-
+.thanksMessage{
+    /* font-size: 25px; */
+    font-family: 'Ubuntu',sans-serif;
+    /* color: #CC3829; */
+    
+}
 
 /* DONATE TO US PAGE EFFECTS ENDS HERE */
 
