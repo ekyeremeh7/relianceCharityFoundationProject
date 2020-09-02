@@ -1,27 +1,23 @@
   /* about us added effects */
-  #content-desktop .txt{
+  /* #content-desktop .txt{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+} */
+
+.card-sub-title{
+    font-family:  'Ubuntu', sans-serif; 
 }
+
 
 /* welcome message */
 .logo-style {
-    /* border-style: dotted; */
     border: 2px white;
     height: 0%;
     /* box-shadow: 3px 3px 25px #e74c3c; */
     box-shadow: 3px 3px 25px #faf2f1;
-    /* margin-left: 25%; */
-    /* margin-left:20%; */
-    /* width:90%; */
-    /* width: 50%; */
-
-    /* border-top: #DC3522;
-    border-bottom: #DC3522;
-    border-right:black;
-    border-left:black;
-    border-style: solid;
-    border-width: 2px; */
+    border-radius: 50%;
+     height:50px ;
+    width: 50px;
 
 }
 .skill-row {
@@ -1369,6 +1365,16 @@ a:hover.links {
 
     /* MOBILE VIEW FOR MESSAGE FROM FOUNDER */
 
+    .logo-style {
+        border: 2px white;
+        height: 0%;
+        /* box-shadow: 3px 3px 25px #e74c3c; */
+        box-shadow: 3px 3px 25px #faf2f1;
+        border-radius: 50%;
+         height:40px ;
+        width: 40px;
+    
+    }
     .skill-row {
         width: 90%;
         border-radius: 50%;
@@ -1395,10 +1401,15 @@ a:hover.links {
         margin-top:2%;
         font-size:20px;
     }
+    
+    .aboutUs-sub-title{
+  font-family:  'Ubuntu', sans-serif;   
+}
+
 
     /* about us added effects */
-   #content-mobile .txt{
+   /* #content-mobile .txt{
        font-family: 'Montserrat', sans-serif;
        font-weight: 700;
-   }
+   } */
 }

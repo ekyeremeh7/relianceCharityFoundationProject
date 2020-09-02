@@ -1,3 +1,15 @@
+/* welcome message */
+.logo-style {
+    border: 2px white;
+    height: 0%;
+    /* box-shadow: 3px 3px 25px #e74c3c; */
+    box-shadow: 3px 3px 25px #faf2f1;
+    border-radius: 50%;
+     height:50px ;
+    width: 50px;
+
+}
+
 /* SETTING THE BODY TO BE FIXED */
 /* body{
     position: absolute;
@@ -132,6 +144,7 @@ h6 {
     /* margin: 100px 110px 100px 170px; */
     margin-left: 11%;
     margin-right: 12%;
+    margin-top:10%;
     margin-bottom: 10%;
     line-height: 1.2;
     /* font-size: 19px; */
@@ -498,6 +511,19 @@ hr {
     }
 
 
+    /* MOBILE VIEW FOR MESSAGE FROM FOUNDER */
+
+    .logo-style {
+        border: 2px white;
+        height: 0%;
+        /* box-shadow: 3px 3px 25px #e74c3c; */
+        box-shadow: 3px 3px 25px #faf2f1;
+        border-radius: 50%;
+         height:40px ;
+        width: 40px;
+    
+    }
+    
 
 }
 /* ENDS HERE */
