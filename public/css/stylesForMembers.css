@@ -1,3 +1,55 @@
+/* SETTINGS FOR THE HEADER.EJS FILE*/
+.logo-style {
+    border: 2px white;
+    height: 0%;
+    /* box-shadow: 3px 3px 25px #e74c3c; */
+    box-shadow: 3px 3px 25px #faf2f1;
+    border-radius: 50%;
+     height:50px ;
+    width: 50px;
+
+}
+.skill-row {
+    width: 90%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left:5%;
+    margin-right:7%;
+    text-align: left;
+    /* font-size: 18px; */
+}
+.message-img{
+    border-radius:50%;
+    float:left;
+    margin-left:2px;
+    margin-right:20px;
+    width: 19%;
+    height: 110%;
+     /* box-shadow: 3px 3px 25px #e74c3c; */
+    /* height="200px"  */
+    /* width="210px" */
+    /* height:50%; */
+}
+
+.message-img-glow {
+    border: 2px white;
+    /* height: 0%; */
+    box-shadow: 3px 3px 15px #e74c3c;
+    /* box-shadow: 3px 3px 25px #faf2f1; */
+    border-radius: 50%;
+     /* height:50px ; */
+    /* width: 50px; */
+
+}
+.messageParagraph{
+    /* margin-top: 5%; */
+    margin-top:3%;
+    font-size:20px;
+}
+/* SETTINGS FOR HEADER.EJS ENDS HERE */
+
+
 /* SETTING THE BODY TO BE FIXED */
 /* body{
     position: absolute;
@@ -245,6 +297,10 @@ hr {
     color: #e74c3c !important;
 }
 
+.logo-margin{
+    margin-left: 1px;
+    margin-right: -4px;
+}
 
 /* RESPONSIVE CSS */
 /* 768 -991 SCREEN DISPLAY */
@@ -360,7 +416,16 @@ hr {
 @media only screen and (max-width: 1132px) {
 
       /* SETTING THE MOBILE VIEW OF HEADER.EJS FILE */
-      .logo-style {
+      /* .navbar-margin{ */
+        /* margin-left:-35%; */
+        /* margin-left:-150px; */
+        /* margin-left: -8.75rem; */
+    /* } */
+    .logo-margin{
+        margin-left: 1px;
+        margin-right: -115px;
+    }
+    .logo-style {
         border: 2px white;
         height: 0%;
         /* box-shadow: 3px 3px 25px #e74c3c; */
@@ -379,8 +444,8 @@ hr {
         /* padding: 4px 2px; */
         padding-left: 0.5px;
         /* margin-left:1px; */
-        /* margin-right: 130px */
-        margin-right:8.125rem;
+        /* margin-right: 126px */
+        /* margin-right:8.125rem; */
     }
 
        /* setting the new effect of the members page section */
