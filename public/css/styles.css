@@ -1,15 +1,4 @@
-  /* about us added effects */
-  /* #content-desktop .txt{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-} */
-
-.card-sub-title{
-    font-family:  'Ubuntu', sans-serif; 
-}
-
-
-/* welcome message */
+/* SETTINGS FOR THE HEADER.EJS FILE*/
 .logo-style {
     border: 2px white;
     height: 0%;
@@ -26,29 +15,39 @@
     margin-top: 20px;
     margin-bottom: 100px;
     margin-left:5%;
-    margin-right:5%;
+    margin-right:7%;
     text-align: left;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 .message-img{
     border-radius:50%;
     float:left;
     margin-left:2px;
     margin-right:20px;
-    width: 15%;
+    width: 19%;
+    height: 110%;
+     /* box-shadow: 3px 3px 25px #e74c3c; */
     /* height="200px"  */
     /* width="210px" */
     /* height:50%; */
 }
 
+.message-img-glow {
+    border: 2px white;
+    /* height: 0%; */
+    box-shadow: 3px 3px 15px #e74c3c;
+    /* box-shadow: 3px 3px 25px #faf2f1; */
+    border-radius: 50%;
+     /* height:50px ; */
+    /* width: 50px; */
+
+}
 .messageParagraph{
     /* margin-top: 5%; */
-    margin-top:2%;
-    font-size:23px;
+    margin-top:3%;
+    font-size:20px;
 }
-
-/* welcome message ends here */
-
+/* SETTINGS FOR HEADER.EJS ENDS HERE */
 
 /* SETTING THE BODY TO BE FIXED */
 /* body{
@@ -91,6 +90,9 @@
 }
 
 /* NAVBAR SECTION */
+.navbar-margin{
+    margin-left:0%;
+}
 .navbar-light .navbar-brand {
     color: #fff;
     text-shadow: 2.5px 2.5px 2.5px black;
@@ -1076,13 +1078,16 @@ a:hover.links {
 /* PHONE VIEW CSS */
 /* max-width:960px */
 @media only screen and (max-width:1132px) {
-    
+ 
+    /* NAVBAR SECTION STARTS HERE */
     .navbar-light .navbar-brand {
         /* font-size: 18.5px; */
         font-size: 	1.130em;
         /* padding: 4px 2px; */
         padding-left: 0.5px;
-        margin-left:1px;
+        /* margin-left:1px; */
+        /* margin-right: 115px */
+        /* margin-right:7.200rem; */
     }
 
     .navbar-light .navbar-nav .nav-link{
@@ -1095,13 +1100,19 @@ a:hover.links {
     .navbar-nav.ml-auto {
         background: rgba(0, 0, 0, 0);
     }
-
+   
+      /* .navbar-header {
+        display:flex;
+      } */
+     
+      
     .navbar-toggler {
         padding: 2px 2px;
+        /* margin-left:40px; */
         /* font-size: 10px; */
         line-height: 0.1;
         background: #fff;
-        margin-right: 40px;
+        /* margin-right: 120px; */
     }
     
     .nav-link {
@@ -1115,13 +1126,16 @@ a:hover.links {
         background: rgba(0, 0, 0, 0);
     }
 
-
     .dropdown-margin{
         margin-bottom: 15px;
         text-align: center;
     }
     
+/* NAVBAR SECTION ENDS HERE */
 
+
+
+/* CAROUSEL SECTION STARTS HERE */
     .carousel-caption {
         padding-bottom: 120px;
         /* padding-bottom:750% */
@@ -1147,6 +1161,115 @@ a:hover.links {
         height: 100vh;
         /* height: auto; */
     }
+
+    /* CAROUSEL SECTION ENDS HERE */
+
+
+    /* SETTING THE MOBILE VIEW OF HEADER.EJS FILE */
+    .navbar-margin{
+        /* margin-left:-35%; */
+        /* margin-left:-140px; */
+        margin-left: -8.75rem;
+    }
+    .logo-margin{
+        margin-left: 1px;
+    }
+    .logo-style {
+        border: 2px white;
+        height: 0%;
+        /* box-shadow: 3px 3px 25px #e74c3c; */
+        box-shadow: 3px 3px 25px #faf2f1;
+        border-radius: 50%;
+         height:50px ;
+        width: 50px;
+       
+    
+    }
+
+    .skill-row {
+        width: 90%;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-left:7%;
+        margin-right:7%;
+        text-align: left;
+        /* font-size: 18px; */
+    }
+    .message-img{
+        border-radius:50%;
+        float:left;
+        margin-left:2px;
+        margin-right:20px;
+        width: 40%;
+        height: 35%;
+        max-width: 250px;
+        max-height: 250px;
+        box-shadow: 3px 3px 25px #e74c3c;      
+         /* height="200px"  */
+        /* width="210px" */
+        /* height:50%; */
+    }
+    
+    .messageParagraph{
+        /* margin-top: 5%; */
+        margin-top:2%;
+        font-size:20px;
+    }
+    
+    
+    /* SETTING THE MOBILE VIEW OF HEADER.EJS FILE ENDS HERE */
+
+
+/* NEW MOBILE VIEW OF ABOUT US SECTION */
+
+
+.chilli-img {
+    border-radius:50%;
+    width: 40%;
+    float: right;
+    margin-top:40px;
+    margin-left: 30px;
+}
+.mission-img {
+    border-radius:40%;
+    width: 25%;
+    height:40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.code-img {
+    border-radius:40%;
+    width: 15%;
+    max-width: 50px;
+    height:50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.aboutUs-row {
+    width: 90%;
+    border-radius: 50%;
+    /* margin: 100px auto 100px auto; */
+    /* text-align: left; */
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left:7%;
+    margin-right:10%;
+    text-align: left;
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+}
+
+
+/* NEW MOBILE VIEW OF ABOUT US SECTION ENDS HERE */
+
+
+
+
+
+
 
     
     /* TARGETING THE H1,H3,H6 ,H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
@@ -1271,10 +1394,11 @@ a:hover.links {
      
     }
 
-    #team img {
+   
+     #team img {
         margin-top: -80px;
 
-    }
+    } 
 
     #team i {
         font-size: 26px;
@@ -1358,58 +1482,5 @@ a:hover.links {
         font-family: 'Bree Serif', serif;
         color: #DC3522;
     }
-
-    .donate-us-margin-top{
-        margin-top:20%;
-    }
-
-    /* MOBILE VIEW FOR MESSAGE FROM FOUNDER */
-
-    .logo-style {
-        border: 2px white;
-        height: 0%;
-        /* box-shadow: 3px 3px 25px #e74c3c; */
-        box-shadow: 3px 3px 25px #faf2f1;
-        border-radius: 50%;
-         height:40px ;
-        width: 40px;
-    
-    }
-    .skill-row {
-        width: 90%;
-        border-radius: 50%;
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left:7%;
-        margin-right:7%;
-        text-align: left;
-        /* font-size: 18px; */
-    }
-    .message-img{
-        border-radius:50%;
-        float:left;
-        margin-left:2px;
-        margin-right:20px;
-        width: 40%;
-        /* height="200px"  */
-        /* width="210px" */
-        /* height:50%; */
-    }
-    
-    .messageParagraph{
-        /* margin-top: 5%; */
-        margin-top:2%;
-        font-size:20px;
-    }
-    
-    .aboutUs-sub-title{
-  font-family:  'Ubuntu', sans-serif;   
 }
-
-
-    /* about us added effects */
-   /* #content-mobile .txt{
-       font-family: 'Montserrat', sans-serif;
-       font-weight: 700;
-   } */
-}
+ 
