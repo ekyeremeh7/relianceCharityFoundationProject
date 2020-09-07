@@ -182,10 +182,12 @@ width: 100vw;
                             /* GET INVOLVED DROPDOWN SECTION ENDS HERE */
                             /* NAVBAR SECTION ENDS HERE */
                             /* QUOTE SECTION STARTS HERE */
+                            /* QUOTE SECTION STARTS HERE */
                             
                             .quote-ejs-page {
                                 font-size: 1.550em;
                                 font-style: italic;
+                                font-family: "Segoe UI";
                             }
                             
                             .quote {
