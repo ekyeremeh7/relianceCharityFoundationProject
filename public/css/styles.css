@@ -1,104 +1,64 @@
-/* SETTINGS FOR THE HEADER.EJS FILE*/
-.logo-style {
-    border: 2px white;
-    height: 0%;
-    /* box-shadow: 3px 3px 25px #e74c3c; */
-    box-shadow: 3px 3px 25px #faf2f1;
-    border-radius: 50%;
-     height:50px ;
-    width: 50px;
+/* USING CSS MAGIC TO SWITCH TO THE DESKTOP VIEW */
 
-}
-.skill-row {
-    width: 90%;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    margin-left:5%;
-    margin-right:7%;
-    text-align: left;
-    /* font-size: 18px; */
-}
-.message-img{
-    border-radius:50%;
-    float:left;
-    margin-left:2px;
-    margin-right:20px;
-    width: 19%;
-    height: 110%;
-     /* box-shadow: 3px 3px 25px #e74c3c; */
-    /* height="200px"  */
-    /* width="210px" */
-    /* height:50%; */
+#content-desktop {
+    display: block;
 }
 
-.message-img-glow {
-    border: 2px white;
-    /* height: 0%; */
-    box-shadow: 3px 3px 15px #e74c3c;
-    /* box-shadow: 3px 3px 25px #faf2f1; */
-    border-radius: 50%;
-     /* height:50px ; */
-    /* width: 50px; */
+#content-mobile {
+    display: none;
+}
 
+
+/* VIEWPORT SETTINGS */
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
 }
-.messageParagraph{
-    /* margin-top: 5%; */
-    margin-top:3%;
-    font-size:20px;
+
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1;
 }
-/* SETTINGS FOR HEADER.EJS ENDS HERE */
+
+
+/* VIEWPORT SETTINGS ENDS HERE */
+
 
 /* SETTING THE BODY TO BE FIXED */
+
+
 /* body{
     position: absolute;
     width: 100vw;
 }
  */
 
- html, body {
+html,
+body {
     overflow-x: hidden;
-  }
-  body {
+}
+
+body {
     position: relative;
-  }
+}
+
+
 /* SETTING THE BODY ENDS HERE */
 
-.myLink{
-    color: white;
-    text-align: left;
-    font-family: ubuntu;
-    margin-left: 5px;
-}
 
-/* VIEWPORT SETTINGS */
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-
-@-ms-viewport{
-    width:extend-to-zoom;
-    zoom: 1;
-}
+/* NAVBAR SECTION STARTS HERE*/
 
 
-/* LAST ROW MARGIN */
-.last-row-margin{
-    margin-left:0%;
-    margin-right:0%;
-}
+/* .navbar-margin {
+    margin-left: 0%;
+} */
 
-/* NAVBAR SECTION */
-.navbar-margin{
-    margin-left:0%;
-}
 .navbar-light .navbar-brand {
     color: #fff;
     text-shadow: 2.5px 2.5px 2.5px black;
     /* font-size: 28px; */
     font-size: 1.580em;
-
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -106,6 +66,7 @@
 .nav.navbar-nav.navbar-right {
     margin: 20px 0;
 }
+
 
 /* .banner {
     -webkit-background-size: cover;
@@ -123,21 +84,17 @@
 
 .navbar-light .navbar-brand:hover {
     color: #e74c3c;
-  }
-
-
-
+}
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
     color: black;
-    }
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
-
 }
 
 .navbar-nav {
@@ -147,41 +104,103 @@
 .nav-link {
     font-family: 'Ubuntu', sans-serif;
     /* font-size: 20px; */
-    font-size:	1.250em ;
+    font-size: 1.250em;
     font-weight: 800;
-   }
+}
 
 .nav-item {
-    margin: 5px 2px 5px;
+    margin: 10px 15px 5px;
     /* margin:0.05%; */
 }
 
 .navbar-light .navbar-brand .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-
     color: #e74c3c !important;
 }
 
 .w-100 {
-    /* height: 100vh; */
-    height: auto;
+    height: 100vh;
+    /* height: auto; */
+}
+
+.logo-style {
+    border: 2px white;
+    height: 0%;
+    /* box-shadow: 3px 3px 25px #e74c3c; */
+    box-shadow: 3px 3px 25px #faf2f1;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 
-/* IN THE DESKTOP VIEW */
+/* GET INVOLVED DROPDOWN SECTION STARTS HERE */
 
-#content-desktop {
-    display: block;
+.dropdown-menu {
+    background: transparent;
 }
 
-#content-mobile {
-    display: none;
-
+.dropdown-margin {
+    margin-bottom: 2px;
+    margin-top: -10px;
+    margin-left: -3px;
+    margin-right: -5px;
+    /* text-align: center; */
 }
 
 
+/* GET INVOLVED DROPDOWN SECTION ENDS HERE */
 
-/* NAVBAR PICTURE BLURRING */
+
+/* NAVBAR SECTION ENDS HERE */
+
+
+/* CAROUSEL SECTION STARTS HERE */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 38%;
+    /* bottom:40%; */
+}
+
+
+/* .added-caption-bottom{
+    bottom:41%;
+} */
+
+.carousel-caption h5 {
+    /* font-size: 45px; */
+    font-size: 2.290em;
+    /* font-weight:bold; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption p {
+    width: 75%;
+    margin: auto;
+    /* font-size: 20px; */
+    font-size: 1.250em;
+    line-height: 1.9;
+    /* font-family: 'Poppins',sans-serif; */
+    font-family: 'Bree', sans-serif;
+    font-weight: 500;
+}
+
+
+/*  PICTURE BLURRING  IN CAROUSEL STARTS HERE*/
+
 .mobile-effect {
     filter: blur(2.0px);
     -webkit-filter: blur(2.0px);
@@ -198,208 +217,61 @@
     -webkit-filter: blur(2.2px);
 }
 
-*/
 
-/* mobile view blur effect */
-.mobile-blur-effect {
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);
-}
-
-.mobile-img{
-    opacity:0.95 ;
-}
+/* PICTURE BLURRING IN CAROUSEL ENDS HERE */
 
 
-/* GET INVOLVED DROPDOWN SECTION */
-.dropdown-menu{
-    background: transparent;
-}
-
-.dropdown-margin{
-    margin-bottom: 0.2px;
-    margin-top:0.2px;
-    margin-left: -3px;
-    margin-right: -5px;
-    /* text-align: center; */
-}
+/* CAROUSEL SECTION ENDS HERE */
 
 
- /* GET INVOLVED DROPDOWN SECTION ENDS HERE */
+/* WELCOME MESSAGE STARTS HERE */
 
-/* NAVBAR SECTION ENDS HERE */
-
-
-/* DONATE SECTION START HERE */
-#donate{
-    margin-left: 4%;
-    margin-right: 4%;
-}
-#donate h2{
-    text-shadow: 1.0px 1.0px 1.0px black;
-    color: #E45C4D;
-    font-size: 	2.500em;
-    font-style: bold;
-    font-weight: 900;
-}
-
-#donate h3{
-    text-shadow: 1.0px 1.0px 1.0px black;
-    color: #E45C4D;
-    font-size: 	2.50em;
-    font-style: bold;
-    font-weight: 900;
-}
-
-.boxedPadding {
-    padding:10px 10px 25px 15px;
-  
-}
-/* .boxedMargin{
-    margin-bottom: 100px;
-} */
-.boxedStyle {
-    border-style: dotted;
-    border: 2px white;
-    height: 0%;
-    box-shadow: 3px 3px 25px #e74c3c;
-    /* margin-left: 25%; */
-    /* margin-left:20%; */
-    width:90%;
-    /* width: 50%; */
-
-}
-
-.bankBoxedStyle {
-    /* border-style: dotted; */
-    /* border: 2px white; */
-    /* height: 0%; */
-    /* box-shadow: 3px 3px 25px #e74c3c; */
-    /* margin-left: 25%; */
-    /* margin-left:20%; */
-    width:90%;
-    /* width: 50%; */
-
-    border-top: #DC3522;
-    border-bottom: #DC3522;
-    border-right:black;
-    border-left:black;
-    border-style: solid;
-    border-width: 2px;
-
-}
-
-
-#content-desktop .boxedStyle:hover {
-    background-color: rgb(206, 205, 205);
-    border: none;
-    box-shadow: 2px 2px 5px #9E9E9E;
- 
-}
-
-#content-desktop .boxedStyle:after {
-    background-color: white;
-    /* content: ""; */
- 
-}
-
-.bankAccount-border{
-    border-top: #DC3522;
-    border-bottom: #DC3522;
-    border-right:white;
-    border-style: dashed;
-    border-width: 1px;
-    margin-bottom: 10%;
-    /* margin: 0px 0px 200px 0px; */
-    padding-top: 5%;
-    padding-bottom: 10%;
-   
-}
-
-
-
-/*  DONATE SECTION ENDS HERE*/
-
-/* QUOTE SECTION */
-
-.testing {
-    border: dotted white 6px;
-}
-
-.quote-ejs-page {
-    /* font-size: 25px; */
-    font-size: 	1.550em;
-    font-style: italic;
-
-}
-/* .quote-marginal{
-    margin-top: 300px;
-} */
-.quote {
-    color: black;
-    font-style: normal;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-}
-
-.specified-font {
-    font-family: 'Poppins', sans-serif;
-}
-
-/* QUOTE SECTION ENDS HERE */
-
-
-/* MEMBER PAGE ADDED EFFECTS */
-.organizer-added-effects {
-    margin-left: 45%;
-    margin-bottom: 5%;
-    height: 220px;
-    width: 220px;
-    border-radius: 360%;
-
-}
-
-.width-added {
-    margin-left: 45%;
-    margin-bottom: 5%;
-    height: 200px;
-    width: 220px;
-    border-radius: 360%;
-
-}
-
-.ejsContent {
-    /* font-size: 20px; */
-    font-size: 	1.250em;
+.skill-row {
+    width: 90%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 6%;
     text-align: left;
-    }
-
-.ejs-rounded-pic {
-    margin-left: 45%;
-    margin-bottom: 5%;
-    height: 200px;
-    width: 200px;
-    border-radius: 360%;
-}
-
-/* SETTINGS FOR FOUNDER PAGE */
-h4 {
-    font-weight: 100;
-}
-
-.ejs-page-title {
-    margin: 150px 0px 30px 60px;
-    padding: 0%;
-
-}
-
-.ejs-page {
-    margin: 100px 100px 100px 100px;
-    height: 100px;
     /* font-size: 18px; */
-    font-size: 1.125em;
-
 }
+
+.skill-row p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.message-img {
+    border-radius: 50%;
+    float: left;
+    margin-left: 2px;
+    margin-right: 20px;
+    /* width: 17%; */
+    max-width: 250px;
+    /* height: 110%; */
+    /* box-shadow: 3px 3px 25px #e74c3c; */
+    /* height="200px"  */
+    /* width="210px" */
+    /* height:50%; */
+}
+
+.message-img-glow {
+    border: 2px white;
+    /* height: 0%; */
+    box-shadow: 3px 3px 15px #e74c3c;
+    /* box-shadow: 3px 3px 25px #faf2f1; */
+    border-radius: 50%;
+    /* height:50px ; */
+    /* width: 50px; */
+}
+
+
+/* WELCOME MESSAGE ENDS HERE */
+
+
+/* ABOUT US SECTION STARTS HERE */
 
 hr {
     border: dotted #E45C4D 6px;
@@ -409,30 +281,9 @@ hr {
 }
 
 
-/* ROW OF WELFARE OFFICER */
-.welfareCenter {
-    position: relative;
-    margin-left: 18%;
-    display: block;
-    margin-bottom: 5%;
-}
-
-.patronCenter {
-    position: relative;
-    margin-left: 38%;
-    display: block;
-    margin-bottom: 5%;
-}
-
-
-
-
 /**
  * Circle Styles
  */
-h6 {
-    font-weight: 500;
-}
 
 .circle {
     position: relative;
@@ -441,6 +292,8 @@ h6 {
     background-color: transparent;
     color: #222;
     text-align: center;
+    /* max-width: 500px; */
+    min-width: 300px;
 }
 
 #aboutUs .circle:hover {
@@ -480,19 +333,17 @@ h6 {
     vertical-align: middle;
 }
 
-
-
 .about-us {
     background-color: white;
-   }
+}
 
 .listElements {
     font-weight: 300;
     /* font-size: 20px; */
-    font-size: 	1.250em	;
+    font-size: 1.250em;
 }
 
-#aboutUs .circle {
+#aboutUs-desktop .circle {
     background-color: white;
     border-radius: 50%;
     box-shadow: 5px 5px 15px #e74c3c;
@@ -501,94 +352,56 @@ h6 {
     -moz-transition: all 0.3s ease-in;
 }
 
-
-/* EDITING ON THE IMAGES ON THE PROFILE OF THE TEAM MEMBERS */
-.esther-rounded-circle {
-    border-radius: 52%;
-    height: 160px;
-}
-
-.organizer-rounded-circle {
-    border-radius: 51%;
-    height: 158px;
-}
-
-.richard-rounded-circle {
-    border-radius: 51%;
-    height: 162px;
-}
-
-.degraft-rounded-circle {
-    border-radius: 54%;
-    height: 150px;
-    width: 200px;
-}
-
-.janet-rounded-circle {
-    border-radius: 52%;
-    height: 160px;
-}
-
-.bernice-rounded-circle {
-    border-radius: 52%;
-    height: 160px;
-}
-
-/* ENDS HERE */
-
-/* CSS ON CAROUSEL  */
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-.carousel-caption {
-    /* bottom: 315px; */
-    bottom:39%;
-}
-
-.added-caption-bottom{
-    bottom:41%;
-}
-
-.carousel-caption h5 {
-
-    /* font-size: 45px; */
-    font-size: 2.290em;
-    /* font-weight:bold; */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
+#aboutUs-desktop h1 {
     font-family: 'Poppins', sans-serif;
-
-
-
+    letter-spacing: -1px;
 }
 
-.carousel-caption p {
-    width: 75%;
-    margin: auto;
+#aboutUs-desktop h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#aboutUs-desktop h6 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* ABOUT US SECTION ENDS HERE */
+
+
+/* TEAM SECTION STARTS HERE */
+
+#team h1 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -1px;
+}
+
+#team h3 {
+    /* font-size: 24px; */
+    font-size: 1.500em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#team h5 {
+    /* font-size: 24px; */
+    font-size: 1.500em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#team p {
+    font-weight: 300;
     /* font-size: 20px; */
     font-size: 1.250em;
-    line-height: 1.9;
-
+    text-align: left;
+    font-family: "Segoe UI";
+    /*,Roboto,"Helvetica Neue",Arial,"Noto Sans", */
 }
 
-/* TEAM SECTION */
-/* effects For our Team  */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-*/ .heading {
+.heading {
     font-size: 2.1rem;
     letter-spacing: 3px;
     margin-right: -3px;
-    margin-bottom: 20rem;
+    margin-bottom: 3rem;
     text-align: center;
     color: #333;
     position: relative;
@@ -604,31 +417,15 @@ h6 {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 2rem;
-
-}
-
-h3 {
-    /* font-size: 24px; */
-    font-size:1.500em ;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 #team img {
     margin-top: -75px;
-
 }
 
 #team i {
     /* font-size: 30px; */
-    font-size:1.290em ;
-}
-
-#team p {
-    font-weight: 300;
-    /* font-size: 20px; */
-    font-size: 1.250em	;
-    text-align:left;
-
+    font-size: 1.290em;
 }
 
 #team .card {
@@ -636,7 +433,7 @@ h3 {
     flex-direction: column;
     border-radius: 0;
     box-shadow: 5px 5px 15px #e74c3c;
-    margin: 2.2rem 0 1.2rem 0;
+    margin: 2.2rem 0 4.7rem 0;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -655,6 +452,17 @@ h3 {
     color: #fff;
 }
 
+#team a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: line;
+}
+
+#team a:hover {
+    color: #fff;
+}
+
 .card {
     margin: 2rem;
     transition: transform .5s;
@@ -664,7 +472,6 @@ h3 {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -710,144 +517,109 @@ h3 {
     transform: scale(1.05);
 }
 
+
+/* EDITING ON THE IMAGES ON THE PROFILE OF THE TEAM MEMBERS STARTS HERE*/
+
+.esther-rounded-circle {
+    border-radius: 52%;
+    height: 160px;
+}
+
+.organizer-rounded-circle {
+    border-radius: 51%;
+    height: 158px;
+}
+
+.richard-rounded-circle {
+    border-radius: 51%;
+    height: 162px;
+}
+
+.degraft-rounded-circle {
+    border-radius: 54%;
+    height: 150px;
+    width: 200px;
+}
+
+.janet-rounded-circle {
+    border-radius: 52%;
+    height: 160px;
+}
+
+.bernice-rounded-circle {
+    border-radius: 52%;
+    height: 160px;
+}
+
+
+/*EDITING ON THE IMAGES ON THE PROFILE OF THE TEAM MEMBERS  ENDS HERE */
+
+
 /* TEAM SECTION ENDS HERE */
 
 
-/* DONATE TO US PAGE EFFECTS STARTS HERE*/
-.desktop-donate-margin{
-    margin-top:1%;
-    margin-left: 4%;
-    margin-right:2%;
-    margin-bottom:10%;
+/* QUOTE SECTION STARTS HERE */
+
+.quote-ejs-page {
+    font-size: 1.550em;
+    font-style: italic;
 }
 
-.donate-margin{
-   margin-top: 10%; 
-   margin-bottom: 100px;
-}
-.mobile-donate-margin{
-    margin-top:5%;
-    margin-left: 4%;
-    margin-right:2%;
-    margin-bottom:10%;
-}
-
-.form-border{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 8%;
-    padding-bottom:5%;
-    /* padding:10px 40px 80px 40px; */
-    /* border-top: #DC3522;
-    border-bottom: #DC3522;
-    border-left: #DC3522;
-    border-right: #DC3522;
-    border-width: 1px;
-    border-style: dashed; */
-    border-top: #DC3522;
-    border-bottom: #DC3522;
-    border-right:black;
-    border-left:black;
-    border-style: solid;
-    border-width: 1px;
-    background-color:#D9DDDC;
-    margin-bottom: 10%;
-
-}
-
-.form-margin {
-    margin-bottom: 100px;
+.quote {
+    color: black;
+    font-style: normal;
+    text-align: center;
+    /* font-family: 'Merriweather', serif; */
+    font-family: "Segoe UI", serif;
 }
 
 
-#content-mobile .mobile-donate-margin{
-
-    margin-left: 2%;
-    margin-right:2%;
-}
-
-/* #content-desktop .bankBoxedStyle:hover {
-    background-color: rgb(206, 205, 205);
-    border: none;
-    box-shadow: 2px 2px 5px #9E9E9E;
- 
+/* .specified-font {
+    font-family: 'Poppins', sans-serif;
 } */
 
-#content-desktop .bankBoxedStyle:after {
-    background-color: white;
-    /* content: ""; */
- 
-}
-#content-desktop .viah3 {
-    color: #DC3522;
-    font-family: 'ubuntu';
- 
-}
 
-.plea{
-    font-size: 25px;
-    margin-left:4%;
-    margin-right:4%;
-}
-.help-message{
-    font-family: 'Bree Serif', serif;
-    color: #DC3522;
-}
-
-.messageAlignment{
-    text-align:left;
-}
-
-.thanksMessage{
-    /* font-size: 25px; */
-    font-family: 'Ubuntu',sans-serif;
-    /* color: #CC3829; */
-    
-}
-
-/* DONATE TO US PAGE EFFECTS ENDS HERE */
+/* QUOTE SECTION ENDS HERE */
 
 
-
+/* FOOTER SECTION STARTS HERE */
 
 
 /* FOOTER SECTION */
-a {
+
+#contactUs a {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 
-a:hover {
+#contactUs a:hover {
     color: #EAF6F6;
 }
 
-a:hover.links {
+#contactUs a:hover.links {
     color: burlywood;
 }
 
-.contact-me {
-    color: #e74c3c;
-    ;
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
+#contactUs h3 {
+    /* text-align: center; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
-/* .contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
-} */
+#contactUs h6 {
+    /* text-align: center; */
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .copyright {
     color: #EAF6F6;
     text-align: center;
     font-size: 1.5rem;
     margin: 15px 2px 15px 2px;
-   
 }
-.copyrightText{
+
+.copyrightText {
     color: #EAF6F6;
     text-align: center;
     font-size: 1rem;
@@ -855,7 +627,6 @@ a:hover.links {
 }
 
 .bottom-container {
-
     background-color: #E45C4D;
     padding: 50px 0 20px;
 }
@@ -871,13 +642,12 @@ a:hover.links {
     -moz-border-radius: 20px;
     border-radius: 8px;
     font-family: Monospace;
-    color: #ffffff;
+    color: #0f0d0d;
     /* font-size: 25px; */
     font-size: 1.290em;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     box-shadow: 1px 1px 20px 0px #363232;
-
 }
 
 .btn:hover {
@@ -887,600 +657,416 @@ a:hover.links {
     background-image: -ms-linear-gradient(top, #E74C3C, #CC3829);
     background-image: -o-linear-gradient(top, #E74C3C, #CC3829);
     background-image: linear-gradient(to bottom, #E74C3C, #CC3829);
+}
 
+.myLink {
+    color: white;
+    text-align: left;
+    font-family: ubuntu;
+    margin-left: 5px;
+}
+
+#contactUs .btn {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+#contactUs .myLink {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px;
+    text-decoration: none;
 }
 
 
-@media only screen and (max-width:1208px){
-    .carousel-caption {
-        bottom: 370px;
-    }
-    .carousel-caption h5 {
-        /* font-size:25px; */
-        font-size: 1.290em;
-    }
-    #aboutUs h3 {
-        /* font-size: 25px; */
-        font-size: 1.290em;
-    }
+/* FOOTER SECTION ENDS HERE */
 
-   #aboutUs h6 {
-        /* font-size: 14px; */
+
+/* DONATE TO US PAGE STARTS HERE */
+
+.heading {
+    margin-top: 20px;
+}
+
+#donate {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#donate h2 {
+    text-shadow: 1.0px 1.0px 1.0px black;
+    color: #E45C4D;
+    font-size: 2.500em;
+    font-style: bold;
+    font-weight: 900;
+}
+
+#donate h3 {
+    text-shadow: 1.0px 1.0px 1.0px black;
+    color: #E45C4D;
+    font-size: 2.50em;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.boxedPadding {
+    padding: 10px 12px 25px 15px;
+}
+
+.boxedStyle {
+    border-style: dotted;
+    border: 2px white;
+    box-shadow: 3px 3px 25px #e74c3c;
+    /* margin-left: 25%; */
+    /* margin-left:20%; */
+    width: 90%;
+    /* width: 50%; */
+}
+
+.bankBoxedStyle {
+    /* border-style: dotted; */
+    /* border: 2px white; */
+    /* height: 0%; */
+    /* box-shadow: 3px 3px 25px #e74c3c; */
+    /* margin-left: 25%; */
+    /* margin-left:20%; */
+    width: 90%;
+    /* width: 50%; */
+    border-top: #DC3522;
+    border-bottom: #DC3522;
+    border-right: black;
+    border-left: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#content-desktop .boxedStyle:hover {
+    background-color: rgb(206, 205, 205);
+    border: none;
+    box-shadow: 2px 2px 5px #9E9E9E;
+}
+
+#content-desktop .boxedStyle:after {
+    background-color: white;
+    /* content: ""; */
+}
+
+.bankAccount-border {
+    border-top: #DC3522;
+    border-bottom: #DC3522;
+    border-right: white;
+    border-style: dashed;
+    border-width: 1px;
+    margin-bottom: 10%;
+    /* margin: 0px 0px 200px 0px; */
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.desktop-donate-margin {
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+.donate-margin {
+    margin-top: 10%;
+    margin-bottom: 100px;
+}
+
+.mobile-donate-margin {
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+
+.form-border {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    /* padding:10px 40px 80px 40px; */
+    /* border-top: #DC3522;
+            border-bottom: #DC3522;
+            border-left: #DC3522;
+            border-right: #DC3522;
+            border-width: 1px;
+            border-style: dashed; */
+    border-top: #DC3522;
+    border-bottom: #DC3522;
+    border-right: black;
+    border-left: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #D9DDDC;
+    margin-bottom: 10%;
+}
+
+.form-margin {
+    margin-bottom: 100px;
+}
+
+#content-mobile .mobile-donate-margin {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+/* #content-desktop .bankBoxedStyle:hover {
+            background-color: rgb(206, 205, 205);
+            border: none;
+            box-shadow: 2px 2px 5px #9E9E9E;
+         
+        } */
+
+#content-desktop .bankBoxedStyle:after {
+    background-color: white;
+    /* content: ""; */
+}
+
+#content-desktop .viah3 {
+    color: #DC3522;
+    font-family: 'ubuntu';
+}
+
+.plea {
+    font-size: 25px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.help-message {
+    font-family: 'Bree Serif', serif;
+    color: #DC3522;
+}
+
+.messageAlignment {
+    text-align: left;
+}
+
+.thanksMessage {
+    /* font-size: 25px; */
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #CC3829; */
+}
+
+.contact-me {
+    margin-top: 70px;
+}
+
+
+/* DONATE TO US PAGE ENDS HERE */
+
+
+/* --------------------------- 
+        ------------------------------*/
+
+
+/* MEDIA QUERY */
+
+
+/* max-width:1132px */
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    991px is used instead of 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-margin {
+        margin-right: 360px;
+        /* margin-left: -360px; */
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .navbar-margin {
+        margin-right: 360px;
+        /* margin-left: -360px; */
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: -35px;
+    }
+    .nav-link {
+        font-family: 'Ubuntu', sans-serif;
         /* font-size: 20px; */
-        font-size: 1.250em;
+        font-size: 1.140em;
+        font-weight: 800;
     }
-
-}
-
-/* iphone 6/7/plus view */
-@media only screen and (max-width:414px) {
-    .navbar-light .navbar-brand {
-        font-size: 2500px;
-        padding: 5px 5px;
+    .dropdown-menu {
+        font-size: 18px;
+        margin-left: -50px;
+        background: transparent;
+        border: #fff;
+        letter-spacing: .1px;
     }
-
-    .navbar-light .navbar-nav .nav-link{
-        text-shadow: 2.5px 2.5px 2.5px black;
-        color:#fff;
-    }
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-        color: #fff;
-    }
-    .navbar-nav.ml-auto {
-        background: rgba(0, 0, 0, 0);
-    }
-
-    .navbar-toggler {
-        padding: 1px 1px;
-        /* font-size: 15px; */
-        font-size: 	1.188em	;
-        line-height: 0.1;
-        background: #fff;
-    }
-    
-    .nav-link {
-        color: #fff;
-    }
-
-    .navbar-collapse {
-        background: rgba(0, 0, 0, 0);
-    }
-
-    .carousel-caption {
-        padding-bottom: 420px;
-        /* padding-bottom:750% */
-
-    }
-
-    .carousel-caption h5 {
-        /* font-size: 25px; */
-          font-size:1.316em ;
-    }
-
-    .carousel-caption p {
-        /* font-size: 18px; */
-        font-size:112.5;
-    }
-
-    .carousel-caption a {
-        padding: 10px 25px;
-        /* padding:62.5% 156.25%; */
-    }
-
-    /* setting the new effect of the AboutUS section */
-
-    #content-desktop {
-        display: none;
-    }
-
-    #content-mobile {
-        display: block;
-    }
-    .welfareCenter {
-        position: relative;
-        margin-left: .5%;
-        display: block;
-        margin-bottom: 5%;
-        /* width: 15%; */
-    }
-
-    /* Adding Padding and other effects to Vision section and Mission Section */
-    .vision {
-        padding: 25px 50px 75px;
-      
-    }
-
-    .mission {
-        padding: 25px 50px 75px;
-    }
-
-    .projects-we-undertake {
-        padding: 25px 50px 75px;
-    }
-
-    .target-beneficiaries {
-        padding: 25px 50px 75px;
-        line-height: 1.2;
-    }
-
-    div.projects-we-undertake {
-        line-height: 2.5;
-    }
-
-    .boxed {
-        border-style: dotted;
-        border: 2px white;
-        height: 0%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        margin-left: 25%;
-        width: 50%;
-
-    }
-
-    #content-mobile .boxed:hover {
-        background-color: rgb(206, 205, 205);
-        border: none;
-        box-shadow: 2px 2px 5px #9E9E9E;
-    }
-
-    #content-mobile .boxed:after {
-        background-color: white;
-        content: "";
-    }
-
-    #team img {
-        margin-top: -80px;
-
-    }
-
-    #team i {
-        /* font-size: 26px; */
-        font-size:1.398em ;
-    }
-
-    #team p {
-        font-weight: 300;
-    }
-
-
-    #team .card {
-        border-radius: 0;
-        box-shadow: 5px 5px 15px #e74c3c;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        margin-bottom: 200px;
-        /* margin-bottom:50%; */
-        margin-left: 20px;
-        /* margin-left:125%; */
-    
-
-    }
-
-    #team .card:hover {
-        background: #e74c3c;
-        color: #fff;
-        border-radius: 5px;
-        border: none;
-        box-shadow: 5px 5px 10px #9E9E9E;
-    }
-
-    #team .card:hover h3,
-    #team .card:hover i {
-        color: #fff;
-    }
-
-
-}
-
-
-
-/* PHONE VIEW CSS */
-/* max-width:960px */
-@media only screen and (max-width:1132px) {
- 
-    /* NAVBAR SECTION STARTS HERE */
-    .navbar-light .navbar-brand {
-        /* font-size: 18.5px; */
-        font-size: 	1.130em;
-        /* padding: 4px 2px; */
-        padding-left: 0.5px;
-        /* margin-left:1px; */
-        /* margin-right: 115px */
-        /* margin-right:7.200rem; */
-    }
-
-    .navbar-light .navbar-nav .nav-link{
-        text-shadow: 2.5px 2.5px 2.5px black;
-        color:#fff;
-    }
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-        color: #fff;
-    }
-    .navbar-nav.ml-auto {
-        background: rgba(0, 0, 0, 0);
-    }
-   
-      /* .navbar-header {
-        display:flex;
-      } */
-     
-      
-    .navbar-toggler {
-        padding: 2px 2px;
-        /* margin-left:40px; */
-        /* font-size: 10px; */
-        line-height: 0.1;
-        background: #fff;
-        /* margin-right: 120px; */
-    }
-    
-    .nav-link {
-        color: #fff;
-        line-height: 0.1;
-        /* font-size: 25px; */
-        font-size: 1.45em;
-    }
-
-    .navbar-collapse {
-        background: rgba(0, 0, 0, 0);
-    }
-
-    .dropdown-margin{
-        margin-bottom: 15px;
-        text-align: center;
-    }
-    
-/* NAVBAR SECTION ENDS HERE */
-
-
-
-/* CAROUSEL SECTION STARTS HERE */
-    .carousel-caption {
-        padding-bottom: 120px;
-        /* padding-bottom:750% */
-
-    }
-
-    .carousel-caption h5 {
-        /* font-size: 25px; */
-        font-size: 1.45em;
-    }
-
-    /* .carousel-caption p { */
-        /* font-size: 18px; */
-        /* font-size:112.5;
-    } */
-
-    .carousel-caption a {
-        padding: 10px 25px;
-        /* padding:62.5% 156.25%; */
-    }
-
-    .w-100 {
-        height: 100vh;
-        /* height: auto; */
-    }
-
-    /* CAROUSEL SECTION ENDS HERE */
-
-
-    /* SETTING THE MOBILE VIEW OF HEADER.EJS FILE */
-    .navbar-margin{
-        /* margin-left:-35%; */
-        /* margin-left:-140px; */
-        margin-left: -8.75rem;
-    }
-    .logo-margin{
-        margin-left: 1px;
-    }
-    .logo-style {
-        border: 2px white;
-        height: 0%;
+    .message-img {
+        border-radius: 50%;
+        float: left;
+        margin-left: 2px;
+        margin-right: 20px;
+        /* width: 17%; */
+        max-width: 200px;
+        /* height: 110%; */
         /* box-shadow: 3px 3px 25px #e74c3c; */
-        box-shadow: 3px 3px 25px #faf2f1;
-        border-radius: 50%;
-         height:50px ;
-        width: 50px;
-       
-    
-    }
-
-    .skill-row {
-        width: 90%;
-        border-radius: 50%;
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left:7%;
-        margin-right:7%;
-        text-align: left;
-        /* font-size: 18px; */
-    }
-    .message-img{
-        border-radius:50%;
-        float:left;
-        margin-left:2px;
-        margin-right:20px;
-        width: 40%;
-        height: 35%;
-        max-width: 250px;
-        max-height: 250px;
-        box-shadow: 3px 3px 25px #e74c3c;      
-         /* height="200px"  */
+        /* height="200px"  */
         /* width="210px" */
         /* height:50%; */
     }
-    
-    .messageParagraph{
-        /* margin-top: 5%; */
-        margin-top:2%;
-        font-size:20px;
+}
+
+
+/*##Device=Low Resolution Tablets,
+Mobiles (Landscape) ##Screen=B/w 481px to 767px */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-light .navbar-brand {
+        margin-left: -90px;
+        font-size: 1.480em;
     }
-    
-    
-    /* SETTING THE MOBILE VIEW OF HEADER.EJS FILE ENDS HERE */
-
-
-/* NEW MOBILE VIEW OF ABOUT US SECTION */
-
-
-.chilli-img {
-    border-radius:50%;
-    width: 40%;
-    float: right;
-    margin-top:40px;
-    margin-left: 30px;
-}
-.mission-img {
-    border-radius:40%;
-    width: 25%;
-    height:40%;
-    float: left;
-    margin-right: 30px;
-}
-
-.code-img {
-    border-radius:40%;
-    width: 15%;
-    max-width: 50px;
-    height:50%;
-    float: left;
-    margin-right: 30px;
-}
-
-.aboutUs-row {
-    width: 90%;
-    border-radius: 50%;
-    /* margin: 100px auto 100px auto; */
-    /* text-align: left; */
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left:7%;
-    margin-right:10%;
-    text-align: left;
-    font-size: 20px;
-    /* letter-spacing: 2px; */
 }
 
 
-/* NEW MOBILE VIEW OF ABOUT US SECTION ENDS HERE */
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
 
-
-
-
-
-
-
-    
-    /* TARGETING THE H1,H3,H6 ,H5 AND P OF THE CAROUSEL FOR A BETTER MOBILE SCREEN VIEW */
-#content-mobile p{
-    font-size: 1.125em;
-    /* font-size:18px; */
-    letter-spacing: 2px;
-
-}
-#content-mobile h1{
-    /* font-size: 40px; */
-    font-size: 2.5em;
-}
-
-#content-mobile h3{
-    /* font-size: 25px; */
-    font-size: 1.45em;
-}
-
-#content-mobile h6{
-    /* font-size: 18px; */
-    font-size: 1.125em;
+@media (min-width: 320px) and (max-width: 336px) {
+    .navbar-light .navbar-brand {
+        margin-left: -15px;
+        font-size: 18px;
+    }
+    .logo-style {
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .message-img {
+        width: 35%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    #team .card {
+        margin-left: -15px;
+    }
 }
 
-#content-mobile h5{
-
-    /* font-size:30px; */
-    font-size: 1.70em;
+@media(min-width:337px) and (max-width:345px) {
+    .navbar-light .navbar-brand {
+        margin-left: -15px;
+        font-size: 18px;
+    }
+    #team .card {
+        margin-left: -15px;
+    }
 }
-#content-mobile .carousel-caption {
-    /* bottom: 315px; */
-    bottom:22%;
+
+@media(min-width:346px) and (max-width:368px) {
+    .navbar-light .navbar-brand {
+        margin-left: -15px;
+        font-size: 18px;
+    }
+    #team .card {
+        margin-left: 1px;
+    }
 }
 
-#content-mobile .added-bottom{
-    bottom: 15%;
+@media(min-width:369px) and (max-width:430px) {
+    .navbar-light .navbar-brand {
+        margin-left: -25px;
+        font-size: 18px;
+    }
+    #team .card {
+        margin-left: 1px;
+    }
+    .message-img {
+        width: 32%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
 }
-    /* setting the new effect of the AboutUS section */
 
+@media(min-width:431px) and (max-width:480px) {
+    .navbar-light .navbar-brand {
+        margin-left: -75px;
+        /* font-size: 18px; */
+    }
+    #team .card {
+        margin-left: 1px;
+    }
+    .message-img {
+        width: 32%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width:1190px) {
+    /* USING CSS MAGIC TO SWITCH ELEMENTS FROM DESKTOP VIEW TO MOBILE VIEW */
     #content-desktop {
         display: none;
     }
-
     #content-mobile {
         display: block;
     }
-    .welfareCenter {
-        position: relative;
-        margin-left: 2%;
-        display: block;
-        margin-bottom: 5%;
-        /* width: .5%; */
+    /* CSS MAGIC ENDS HERE */
+    /*-----------------------
+            --------------------------
+            ----------------------  */
+    /* NEW MOBILE VIEW OF ABOUT US SECTION */
+    .chilli-img {
+        border-radius: 50%;
+        width: 35%;
+        float: right;
+        margin-left: 30px;
     }
-    
-
-    .patronCenter {
-        position: relative;
-        margin-left: 2%;
-        display: block;
-        margin-bottom: 5%;
-        /* width: .5%; */
+    .mission-img {
+        border-radius: 40%;
+        width: 25%;
+        /* height: 30%; */
+        float: left;
+        margin-right: 30px;
     }
-
-    /* LAST ROW MARGIN */
-.last-row-margin{
-    margin-left:0%;
-    margin-right:0%;
-}
-    
-   
-    /* Adding Padding and other effects to Vision section and Mission Section */
-    .vision {
-        /* padding: 25px 50px 75px; */
-        padding:20px 30px 45px;
+    .code-img {
+        border-radius: 40%;
+        width: 15%;
+        max-width: 50px;
+        height: 50%;
+        float: left;
+        margin-right: 30px;
     }
-
-    .mission {
-        /* padding: 25px 50px 75px; 
-        */
-        padding:20px 30px 45px;
-    }
-
-    .projects-we-undertake {
-        /* padding: 25px 45px 75px; */
-        text-align: center;
-        padding:20px 30px 45px;
-    }
-
-    .target-beneficiaries {
-        /* padding: 25px 50px 75px; */
-        text-align: center;
-        padding:20px 30px 45px;
-        line-height: 1.2;
-    }
-
-    div.projects-we-undertake {
-        line-height: 2.5;
-    }
-
-    .boxed {
-        border-style: dotted;
-        border: 2px white;
-        height: 0%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        /* margin-left: 25%; */
-        margin-left:20%;
-        width:60%;
-        /* width: 50%; */
-
-    }
-
-    #content-mobile .boxed:hover {
-        background-color: rgb(206, 205, 205);
-        border: none;
-        box-shadow: 2px 2px 5px #9E9E9E;
-     
-    }
-
-    #content-mobile .boxed:after {
-        background-color: white;
-        /* content: ""; */
-     
-    }
-
-   
-     #team img {
-        margin-top: -80px;
-
-    } 
-
-    #team i {
-        font-size: 26px;
-    }
-
-    #team p {
-        font-weight: 300;
-    }
-
-
-    #team .card {
-        border-radius: 0;
-        box-shadow: 5px 5px 15px #e74c3c;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        /* margin-bottom: 200px; */
-        margin-bottom:50%;
-        margin-left: 15px;
-        /* max-width: fit-content; */
-        /* margin-left:125%; */
-    
-
-    }
-
-    #team .card:hover {
-        background: #e74c3c;
-        color: #fff;
-        border-radius: 5px;
-        border: none;
-        box-shadow: 5px 5px 10px #9E9E9E;
-    }
-
-    #team .card:hover h3,
-    #team .card:hover i {
-        color: #fff;
-    }
-
-
-/* SETTING CONTACT US MOBILE VIEW */
-#contactUs h3{
-    /* font-size:24px; */
-    font-size: 1.333em;
-}
-    
-
-#contactUs h6{
-    /* font-size:18px; */
-    font-size: 1.125em;
-}
-
- /* SETTING THE FOOTER MOBILE VIEW */
-    .copyright {
-        color: #EAF6F6;
-        text-align: center;
-        /* font-size: 18px; */
-        font-size: 1.125em;
-        margin: 15px 1px 15px 2px;
-       
-    }
-    .copyrightText{
-        color: #EAF6F6;
-        text-align: center;
-        /* font-size: 18px; */
-        font-size: 1.125em;
-        margin: 15px 1px 15px 2px;
-    }
-
-    /* MOBILE VIEW OF DONATE US PAGE */
-#content-mobile .viah3{
-        color: #DC3522;
-        font-family: 'ubuntu';
-    }
-  
-    #content-mobile .plea{
+    .aboutUs-row {
+        width: 100%;
+        border-radius: 50%;
+        /* margin: 100px auto 100px auto; */
+        /* text-align: left; */
+        margin-top: 100px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        /* margin-right: 55%; */
+        text-align: left;
         font-size: 20px;
-        margin-left:4%;
-        margin-right:4%;
+        /* letter-spacing: 2px; */
+        border-radius: 25px;
+        min-width: 70px;
+        /* width: fit-content; */
+        padding: 40px;
+        /* width: 200px; */
+        /* height: 150px; */
     }
-    #content-mobile .help-message{
-        font-family: 'Bree Serif', serif;
-        color: #DC3522;
-    }
+    /* NEW MOBILE VIEW OF ABOUT US SECTION ENDS HERE */
 }
- 

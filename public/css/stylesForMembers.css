@@ -1,671 +1,429 @@
-/* SETTINGS FOR THE HEADER.EJS FILE*/
-.logo-style {
-    border: 2px white;
-    height: 0%;
-    /* box-shadow: 3px 3px 25px #e74c3c; */
-    box-shadow: 3px 3px 25px #faf2f1;
-    border-radius: 50%;
-     height:50px ;
-    width: 50px;
-
+                            /* USING CSS MAGIC TO SWITCH TO THE DESKTOP VIEW */
+                            
+                            #content-desktop {
+                                display: block;
+                            }
+                            
+                            #content-mobile {
+                                display: none;
+                            }
+                            /* VIEWPORT SETTINGS */
+                            
+                            @viewport {
+                                zoom: 1.0;
+                                width: extend-to-zoom;
+                            }
+                            
+                            @-ms-viewport {
+                                width: extend-to-zoom;
+                                zoom: 1;
+                            }
+                            /* VIEWPORT SETTINGS ENDS HERE */
+                            /* SETTING THE BODY TO BE FIXED */
+                            /* body{
+position: absolute;
+width: 100vw;
 }
-.skill-row {
-    width: 90%;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    margin-left:5%;
-    margin-right:7%;
-    text-align: left;
-    /* font-size: 18px; */
-}
-.message-img{
-    border-radius:50%;
-    float:left;
-    margin-left:2px;
-    margin-right:20px;
-    width: 19%;
-    height: 110%;
-     /* box-shadow: 3px 3px 25px #e74c3c; */
-    /* height="200px"  */
-    /* width="210px" */
-    /* height:50%; */
-}
-
-.message-img-glow {
-    border: 2px white;
-    /* height: 0%; */
-    box-shadow: 3px 3px 15px #e74c3c;
-    /* box-shadow: 3px 3px 25px #faf2f1; */
-    border-radius: 50%;
-     /* height:50px ; */
-    /* width: 50px; */
-
-}
-.messageParagraph{
-    /* margin-top: 5%; */
-    margin-top:3%;
-    font-size:20px;
-}
-/* SETTINGS FOR HEADER.EJS ENDS HERE */
-
-
-/* SETTING THE BODY TO BE FIXED */
-/* body{
-    position: absolute;
-    width: 100vw;
-}
- */
-
- html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative;
-  }
-/* SETTING THE BODY ENDS HERE */
-
-/* GET INVOLVED DROPDOWN SECTION */
-.dropdown-menu{
-    background: transparent;
-}
- 
-
-.dropdown-margin{
-    margin-bottom: 0.2px;
-    margin-top:0.2px;
-    margin-left: -3px;
-    margin-right: -5px;
-    /* text-align: center; */
-}
-
-/* GET INVOLVED DROPDOWN ENDS HERE */
-
-.myLink{
-    color: white;
-    text-align: left;
-    font-family: ubuntu;
-    margin-left: 5px;
-}
-
-/* VIEWPORT SETTINGS */
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-
-@-ms-viewport{
-    width:extend-to-zoom;
-    zoom: 1;
-}
-/* USING CSS MAGIC TO SWITCH BETWEEN MOBILE AND DESKTOP VIEW */
-    /* setting the new effect of the Members page section */
-
-/* IN THE DESKTOP VIEW */
-
-#content-desktop {
-    display: block;
-}
-
-#content-mobile {
-    display: none;
-
-}
-
-
-/* QUOTE SECTION */
-.testing {
-    border: dotted white 6px;
-}
-
-.quote-ejs-page {
-    /* font-size: 25px; */
-    font-size: 	1.550em;
-    font-style: italic;
-
-}
-
-.quote {
-    color: black;
-    ;
-    font-style: normal;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-}
-
-
-/* SETTINGS FOR MEMBERS PAGE */
-.content-effect {
-    border-style: dotted;
-    border: 2px white;
-    padding-top: 0.1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    box-shadow: 3px 3px 25px #e74c3c;
-    height: 750px;
-    
-}
-
-/* default color for box hover */
-/* rgb(206, 205, 205); */
-
-
-/* second chosen color */
-/* rgb(231, 230, 230) */
-
-.content-effect:hover {
-    background-color: rgb(252, 248, 248);
-    border: none;
-
-}
-
-h3 {
-    /* font-size: 24px; */
-    font-size: 	1.500em;
-    font-family: 'Ubuntu', 'sans-serif';
-}
-
-h4 {
-    font-weight: 400;
-}
-
-h6 {
-    font-weight: 400;
-}
-
-.ejs-page-title {
-    margin-top: 150px;
-    margin-bottom:45px;
-    padding: 0;
-
-}
-
-.ejs-page {
-    /* margin: 100px 110px 100px 170px; */
-    margin-top: 10%;
-    margin-left: 11%;
-    margin-right: 12%;
-    line-height: 1.2;
-    /* font-size: 19px; */
-    font-size:	1.250em ;
-}
-
-hr {
-    border: dotted #E45C4D 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
-}
-
-
-
-/* ADDITIONAL SETTINGS ON MEMBERS PAGE */
-/* MEMBER PAGE ADDED EFFECTS */
-.organizer-added-effects {
-    margin-left: 43%;
-    margin-bottom: 5%;
-    height: 220px;
-    width: 210px;
-    border-radius: 360%;
-
-}
-
-.width-added {
-    margin-left: 45%;
-    margin-bottom: 5%;
-    height: 200px;
-    width: 220px;
-    border-radius: 360%;
-
-}
-
-
-.ejsContent {
-    /* font-size: 20px; */
-    font-size:	1.250em ;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    
-}
-
-.ejs-rounded-pic{
-    border-radius: 50%;
-    height:200px;
-    width: 200px;
-    margin-bottom: 40px;
-}
-
-/* NAVBAR SECTION */
-.navbar-light .navbar-brand {
-    color: #fff;
-    text-shadow: 2.5px 2.5px 2.5px black;
-    /* font-size: 25px; */
-    font-size: 	1.550em;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.nav.navbar-nav.navbar-right {
-    margin: 20px 0;
-}
-
-.navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-   
-   }
-
-.navbar-light .navbar-brand:hover {
-    color: #e74c3c;
-}
-
-
-
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: black;
-   
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: black;
-
-}
-
-.navbar-nav {
-    text-align: center;
-}
-
-.nav-link {
-    /* line-height: 0.1; */
-    font-family: 'Ubuntu', sans-serif;
-    /* font-size: 20px; */
-    font-size:	1.250em  ;
-    font-weight: 800;
-   }
-
-
-.nav-item {
-    margin: 5px 2px 5px;
-}
-
-.navbar-light .navbar-brand .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-
-    color: #e74c3c !important;
-}
-
-.logo-margin{
-    margin-left: 1px;
-    margin-right: -4px;
-}
-
-/* RESPONSIVE CSS */
-/* 768 -991 SCREEN DISPLAY */
-@media only screen and (min-width:768px) and (max-width:991px){
-.carousel-caption{
-    padding-bottom: 350px;
-
-}
-.carousel-caption h5{
-    /* font-size:50px; */
-    font-size: 2.932em;
-}
-
-
-}
-
-/* 906 SCREEN DISPLAY */
-@media only screen and  (max-width:906px){
-    .content-effect {
-        border-style: dotted;
-        border: 2px white;
-        padding-top: 0.2%;
-        padding-left: 4%;
-        padding-right: 3%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        height: 1000px;
-        width:420px;
-        text-align:left;
-        margin:150px 60px 0px 220px
-    }
-
-    
-}
-
-/* ENDS HERE */
-
-
-/* 742 SCREEN DISPLAY */
-@media only screen and  (max-width:742px){
-    .content-effect {
-        border-style: dotted;
-        border: 2px white;
-        padding-top: 0.2%;
-        padding-left: 4%;
-        padding-right: 3%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        height: 1000px;
-        width:420px;
-        text-align:left;
-        margin:150px 60px 0px 150px;
-    }
-}
-
-/* ENDS HERE */
-
-
-/* 790 SCREEN DISPLAY */
-@media only screen and  (max-width:790px){
-    .content-effect {
-        border-style: dotted;
-        border: 2px white;
-        padding-top: 0.2%;
-        padding-left: 4%;
-        padding-right: 3%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        height: 1000px;
-        width:420px;
-        text-align:left;
-        margin:150px 60px 0px 200px;
-    }
-}
-
-/* ENDS HERE */
-
-/* 922 SCREEN DISPLAY */
-@media only screen and  (max-width:922px){
-    .content-effect {
-        border-style: dotted;
-        border: 2px white;
-        padding-top: 0.2%;
-        padding-left: 4%;
-        padding-right: 3%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        height: 1000px;
-        width:420px;
-        text-align:left;
-        margin:150px 60px 0px 250px;
-    }
-}
-
-/* ENDS HERE */
-
-/* 960 SCREEN DISPLAY */
-@media only screen and (min-width:934px)and (max-width:960px){
-    .content-effect {
-        border-style: dotted;
-        border: 2px white;
-        padding-top: 0.2%;
-        padding-left: 4%;
-        padding-right: 3%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        height: 1000px;
-        width:420px;
-        text-align:left;
-        margin:150px 60px 0px 280px;
-    }
-}
-
-/* 960 SCREEN DISPLAY ENDS HERE */
-
-/* 767px */
-/* SMALLEST SCREEN SIZE */
-@media only screen and (max-width: 1132px) {
-
-      /* SETTING THE MOBILE VIEW OF HEADER.EJS FILE */
-      /* .navbar-margin{ */
-        /* margin-left:-35%; */
-        /* margin-left:-150px; */
-        /* margin-left: -8.75rem; */
-    /* } */
-    .logo-margin{
-        margin-left: 1px;
-        margin-right: -115px;
-    }
-    .logo-style {
-        border: 2px white;
-        height: 0%;
-        /* box-shadow: 3px 3px 25px #e74c3c; */
-        box-shadow: 3px 3px 25px #faf2f1;
-        border-radius: 50%;
-         height:50px ;
-        width: 50px;
-       
-    
-    }
-    /* SETTING THE MOBILE VIEW OF HEADER.EJS FILE ENDS HERE */
-    
-    .navbar-light .navbar-brand {
-        /* font-size: 18.5px; */
-        font-size: 	1.130em;
-        /* padding: 4px 2px; */
-        padding-left: 0.5px;
-        /* margin-left:1px; */
-        /* margin-right: 126px */
-        /* margin-right:8.125rem; */
-    }
-
-       /* setting the new effect of the members page section */
-
-       #content-desktop {
-        display: none;
-    }
-
-    #content-mobile {
-        display: block;
-    }
-
-    .navbar-nav.ml--auto {
-        background: rgba(0, 0, 0, 0.5);
-    }
-
-    
-.nav-link {
-    line-height: 0.1;
-    font-family: 'Ubuntu', sans-serif;
-    /* font-size: 25px; */
-    font-size: 	1.45em;
-    font-weight: 800;
-   }
-
-
-    .navbar-toggler {
-        
-        padding: 1px 3px;
-        /* padding-left: 2px; */
-        /* font-size: 18px; */
-        font-size: 1.125em;
-        line-height: 0.2;
-        background: #fff;
-    }
-
-    
-
-    .dropdown-margin{
-        /* line-height: 0.1; */
-        margin-bottom: 10px;
-        margin-left: 2px;
-        /* text-align: center; */
-    }
-    
-
-    .content-effect {
-        border-style: dotted;
-        border: 2px white;
-        padding-top: 0.2%;
-        padding-left: 4%;
-        padding-right: 3%;
-        box-shadow: 3px 3px 25px #e74c3c;
-        height: 1000px;
-        width:420px;
-        text-align:left;
-        margin:150px 60px 0px 15px
-    }
-
-    .ejs-page {
-        line-height: 1.2;
-        
-    }
-
-
-    .ejs-page-title {
-        text-align: center;
-        margin: 150px 0px 30px -30px;
-        padding: 0;
-
-    }
-
-
-
-    .ejsContent {
-        /* font-size: 20px; */
-        font-size:	1.250em ;
-        margin-left: auto;
-        margin-right: auto;
-            }    
-
-    .navbar-light .navbar-brand{
-        /* font-size:20px; */
-        font-size:	1.250em ;
-        margin-left:.4px;
-      /* font-size: 25px; */
-    }
-
-    
-/* NEW EFFECTS FOR MEMBERS PAGES */
-.mobile-marginal{
-    margin-left: 1%;
-    margin-right: 1%;
-    }
-    
-    .mobileEjsContent{
-        font-size:22px;
-        letter-spacing: 0.8px;
-        margin-left: 1%;
-        margin-right: 2%;
-        padding-left: 2%;
-        padding-right:2%;
-    }
-    
-    /* NEW EFFECTS FOR MEMBERS PAGE ENDS HERE */
-
-    
- 
-
-/* SETTING CONTACT US MOBILE VIEW */
-#contactUs h3{
-    /* font-size:24px; */
-    font-size:1.500em ;
-}
-    
-
-#contactUs h6{
-    /* font-size:18px; */
-    font-size: 1.125em;
-}
-
- /* SETTING THE FOOTER MOBILE VIEW */
-    .copyright {
-        color: #EAF6F6;
-        text-align: center;
-        /* font-size: 18px; */
-        font-size: 1.125em;
-        font-weight: 600;
-        margin: 15px 1px 15px 2px;
-       
-    }
-    .copyrightText{
-        color: #EAF6F6;
-        text-align: center;
-        font-weight: 500;
-        /* font-size: 18px; */
-        font-size: 1.125em;
-        margin: 15px 1px 15px 2px;
-    }
-
-
-
-}
-/* ENDS HERE */
-
-/* FOOTER SECTION */
-a {
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #EAF6F6;
-}
-
-a:hover.links {
-    color: burlywood;
-}
-
-.contact-me {
-    color: #e74c3c;
-    ;
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-}
-
-.contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
-}
-
-
-    .copyright {
-        color: #EAF6F6;
-        text-align: center;
-        /* font-size: 1.5rem; */
-        margin: 15px 2px 15px 2px;
-       
-    }
-    .copyrightText{
-        color: #EAF6F6;
-        text-align: center;
-        /* font-size: 1rem; */
-        margin: 15px 2px 15px 2px;
-    }
-.bottom-container {
-
-    background-color: #E45C4D;
-    padding: 50px 0 20px;
-}
-
-.btn {
-    background: #DC3522;
-    background-image: -webkit-linear-gradient(top, #DC3522, #E45C4D);
-    background-image: -moz-linear-gradient(top, #DC3522, #E45C4D);
-    background-image: -ms-linear-gradient(top, #DC3522, #E45C4D);
-    background-image: -o-linear-gradient(top, #DC3522, #E45C4D);
-    background-image: linear-gradient(to bottom, #DC3522, #E45C4D);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 8px;
-    font-family: Monospace;
-    color: #ffffff;
-    font-size: 25px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    box-shadow: 1px 1px 20px 0px #363232;
-
-}
-
-.btn:hover {
-    background: #E74C3C;
-    background-image: -webkit-linear-gradient(top, #E74C3C, #CC3829);
-    background-image: -moz-linear-gradient(top, #E74C3C, #CC3829);
-    background-image: -ms-linear-gradient(top, #E74C3C, #CC3829);
-    background-image: -o-linear-gradient(top, #E74C3C, #CC3829);
-    background-image: linear-gradient(to bottom, #E74C3C, #CC3829);
-
-}
-/* FOOTER ENDS HERE */
+*/
+                            
+                            html,
+                            body {
+                                overflow-x: hidden;
+                            }
+                            
+                            body {
+                                position: relative;
+                            }
+                            /* SETTING THE BODY ENDS HERE */
+                            /* SETTING THE BODY ENDS HERE */
+                            /* NAVBAR SECTION STARTS HERE*/
+                            /* .navbar-margin {
+    margin-left: 0%;
+} */
+                            
+                            .navbar-light .navbar-brand {
+                                color: #fff;
+                                text-shadow: 2.5px 2.5px 2.5px black;
+                                /* font-size: 28px; */
+                                font-size: 1.580em;
+                                font-weight: bold;
+                                letter-spacing: 2px;
+                            }
+                            
+                            .nav.navbar-nav.navbar-right {
+                                margin: 20px 0;
+                            }
+                            /* .banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+} */
+                            
+                            .navbar-brand {
+                                font-family: 'Ubuntu', sans-serif;
+                                /* color: white; */
+                            }
+                            
+                            .navbar-light .navbar-brand:hover {
+                                color: #e74c3c;
+                            }
+                            
+                            .navbar-light .navbar-nav .active>.nav-link,
+                            .navbar-light .navbar-nav .nav-link.active,
+                            .navbar-light .navbar-nav .nav-link.show,
+                            .navbar-light .navbar-nav .show>.nav-link {
+                                color: black;
+                            }
+                            
+                            .navbar-light .navbar-nav .nav-link {
+                                color: black;
+                            }
+                            
+                            .navbar-nav {
+                                text-align: center;
+                            }
+                            
+                            .nav-link {
+                                font-family: 'Ubuntu', sans-serif;
+                                /* font-size: 20px; */
+                                font-size: 1.250em;
+                                font-weight: 800;
+                            }
+                            
+                            .nav-item {
+                                margin: 10px 15px 5px;
+                                /* margin:0.05%; */
+                            }
+                            
+                            .navbar-light .navbar-brand .navbar-nav .nav-link:focus,
+                            .navbar-light .navbar-nav .nav-link:hover {
+                                color: #e74c3c !important;
+                            }
+                            
+                            .w-100 {
+                                height: 100vh;
+                                /* height: auto; */
+                            }
+                            
+                            .logo-style {
+                                border: 2px white;
+                                height: 0%;
+                                /* box-shadow: 3px 3px 25px #e74c3c; */
+                                box-shadow: 3px 3px 25px #faf2f1;
+                                border-radius: 50%;
+                                height: 50px;
+                                width: 50px;
+                                display: inline-block;
+                                margin-right: 10px;
+                            }
+                            /* GET INVOLVED DROPDOWN SECTION STARTS HERE */
+                            
+                            .dropdown-menu {
+                                background: transparent;
+                            }
+                            
+                            .dropdown-margin {
+                                margin-bottom: 2px;
+                                margin-top: -10px;
+                                margin-left: -3px;
+                                margin-right: -5px;
+                                /* text-align: center; */
+                            }
+                            /* SETTINGS FOR MEMBERS PAGE */
+                            
+                            .content-effect {
+                                border-style: dotted;
+                                border: 2px white;
+                                padding-top: 0.1%;
+                                padding-left: 3%;
+                                padding-right: 3%;
+                                padding-bottom: 150px;
+                                box-shadow: 3px 3px 25px #e74c3c;
+                                height: fit-content;
+                                /* height: 750px; */
+                                border-radius: 25px;
+                            }
+                            
+                            .content-effect:hover {
+                                background-color: rgb(252, 248, 248);
+                                border: none;
+                            }
+                            
+                            .ejs-page {
+                                margin: auto;
+                                margin-top: 200px;
+                            }
+                            
+                            .ejs-page-title {
+                                margin-top: 100px
+                            }
+                            
+                            .ejs-rounded-pic {
+                                border-radius: 50%;
+                                height: 200px;
+                                width: 200px;
+                                margin-top: 20px;
+                                margin-bottom: 40px;
+                            }
+                            
+                            .ejsContent {
+                                font-weight: 300;
+                                /* font-size: 20px; */
+                                font-size: 1.250em;
+                                font-family: "Segoe UI";
+                                /*,Roboto,"Helvetica Neue",Arial,"Noto Sans", */
+                            }
+                            /* --------------------- */
+                            /* -------------------------------- */
+                            /* SETTINGS FOR MEMBERS PAGE CONTENT ENDS HERE */
+                            /* GET INVOLVED DROPDOWN SECTION ENDS HERE */
+                            /* NAVBAR SECTION ENDS HERE */
+                            /* QUOTE SECTION STARTS HERE */
+                            
+                            .quote-ejs-page {
+                                font-size: 1.550em;
+                                font-style: italic;
+                            }
+                            
+                            .quote {
+                                color: black;
+                                font-style: normal;
+                                text-align: center;
+                                /* font-family: 'Merriweather', serif; */
+                                font-family: "Segoe UI", serif;
+                            }
+                            /* .specified-font {
+    font-family: 'Poppins', sans-serif;
+} */
+                            /* QUOTE SECTION ENDS HERE */
+                            /* FOOTER SECTION STARTS HERE */
+                            /* FOOTER SECTION */
+                            
+                            #contactUs a {
+                                color: #11999E;
+                                font-family: 'Montserrat', sans-serif;
+                                margin: 10px 20px;
+                                text-decoration: none;
+                            }
+                            
+                            #contactUs a:hover {
+                                color: #EAF6F6;
+                            }
+                            
+                            #contactUs a:hover.links {
+                                color: burlywood;
+                            }
+                            
+                            #contactUs h3 {
+                                /* text-align: center; */
+                                font-family: 'Ubuntu', sans-serif;
+                            }
+                            
+                            #contactUs h6 {
+                                /* text-align: center; */
+                                font-family: 'Ubuntu', sans-serif;
+                            }
+                            
+                            .copyright {
+                                color: #EAF6F6;
+                                text-align: center;
+                                font-size: 1.5rem;
+                                margin: 15px 2px 15px 2px;
+                            }
+                            
+                            .copyrightText {
+                                color: #EAF6F6;
+                                text-align: center;
+                                font-size: 1rem;
+                                margin: 15px 2px 15px 2px;
+                            }
+                            
+                            .bottom-container {
+                                background-color: #E45C4D;
+                                padding: 50px 0 20px;
+                            }
+                            
+                            .btn {
+                                background: #DC3522;
+                                background-image: -webkit-linear-gradient(top, #DC3522, #E45C4D);
+                                background-image: -moz-linear-gradient(top, #DC3522, #E45C4D);
+                                background-image: -ms-linear-gradient(top, #DC3522, #E45C4D);
+                                background-image: -o-linear-gradient(top, #DC3522, #E45C4D);
+                                background-image: linear-gradient(to bottom, #DC3522, #E45C4D);
+                                -webkit-border-radius: 20px;
+                                -moz-border-radius: 20px;
+                                border-radius: 8px;
+                                font-family: Monospace;
+                                color: #0f0d0d;
+                                /* font-size: 25px; */
+                                font-size: 1.290em;
+                                padding: 10px 20px 10px 20px;
+                                text-decoration: none;
+                                box-shadow: 1px 1px 20px 0px #363232;
+                            }
+                            
+                            .btn:hover {
+                                background: #E74C3C;
+                                background-image: -webkit-linear-gradient(top, #E74C3C, #CC3829);
+                                background-image: -moz-linear-gradient(top, #E74C3C, #CC3829);
+                                background-image: -ms-linear-gradient(top, #E74C3C, #CC3829);
+                                background-image: -o-linear-gradient(top, #E74C3C, #CC3829);
+                                background-image: linear-gradient(to bottom, #E74C3C, #CC3829);
+                            }
+                            
+                            .myLink {
+                                color: white;
+                                text-align: left;
+                                font-family: ubuntu;
+                                margin-left: 5px;
+                            }
+                            
+                            #contactUs .btn {
+                                color: #fff;
+                                font-family: 'Montserrat', sans-serif;
+                                margin: 10px 20px;
+                                text-decoration: none;
+                            }
+                            
+                            #contactUs .myLink {
+                                color: #fff;
+                                font-family: 'Montserrat', sans-serif;
+                                margin: 10px 10px;
+                                text-decoration: none;
+                            }
+                            
+                            hr {
+                                border: dotted #E45C4D 6px;
+                                border-bottom: none;
+                                width: 4%;
+                                margin: 100px auto;
+                            }
+                            /* FOOTER SECTION ENDS HERE */
+                            /* ------------------------------
+            ----------------------------------
+            ------------------------
+            --------------- */
+                            /* MEDIA QUERY */
+                            /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+                            /* max-width: 1024px */
+                            
+                            @media (min-width: 768px) and (max-width: 991px) {
+                                .navbar-margin {
+                                    margin-right: 360px;
+                                    /* margin-left: -360px; */
+                                }
+                            }
+                            
+                            @media (min-width: 992px) and (max-width: 1024px) {
+                                .navbar-margin {
+                                    margin-right: 360px;
+                                    /* margin-left: -360px; */
+                                }
+                                .navbar-light .navbar-nav .nav-link {
+                                    margin-left: -35px;
+                                }
+                                .nav-link {
+                                    font-family: 'Ubuntu', sans-serif;
+                                    /* font-size: 20px; */
+                                    font-size: 1.140em;
+                                    font-weight: 800;
+                                }
+                                .dropdown-menu {
+                                    font-size: 18px;
+                                    margin-left: -50px;
+                                    background: transparent;
+                                    border: #fff;
+                                    letter-spacing: .1px;
+                                }
+                            }
+                            /*##Device=Low Resolution Tablets,
+Mobiles (Landscape) ##Screen=B/w 481px to 767px */
+                            
+                            @media (min-width: 481px) and (max-width: 767px) {
+                                .navbar-light .navbar-brand {
+                                    margin-left: -90px;
+                                    font-size: 1.480em;
+                                }
+                                .ejs-page {
+                                    width: 90%;
+                                }
+                            }
+                            /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+                            
+                            @media (min-width: 320px) and (max-width: 336px) {
+                                .navbar-light .navbar-brand {
+                                    margin-left: -15px;
+                                    font-size: 18px;
+                                }
+                                .logo-style {
+                                    height: 40px;
+                                    width: 40px;
+                                    display: inline-block;
+                                    margin-right: 20px;
+                                }
+                                .ejs-page {
+                                    width: 85%;
+                                }
+                            }
+                            
+                            @media(min-width:337px) and (max-width:345px) {
+                                .navbar-light .navbar-brand {
+                                    margin-left: -15px;
+                                    font-size: 18px;
+                                }
+                                .ejs-page {
+                                    width: 90%;
+                                }
+                            }
+                            
+                            @media(min-width:346px) and (max-width:368px) {
+                                .navbar-light .navbar-brand {
+                                    margin-left: -15px;
+                                    font-size: 18px;
+                                }
+                                .ejs-page {
+                                    width: 90%;
+                                }
+                            }
+                            
+                            @media(min-width:369px) and (max-width:430px) {
+                                .navbar-light .navbar-brand {
+                                    margin-left: -25px;
+                                    font-size: 18px;
+                                }
+                                .ejs-page {
+                                    width: 90%;
+                                }
+                            }
+                            
+                            @media(min-width:431px) and (max-width:480px) {
+                                .navbar-light .navbar-brand {
+                                    margin-left: -75px;
+                                    /* font-size: 18px; */
+                                }
+                                .ejs-page {
+                                    width: 80%;
+                                }
+                            }
+                            
+                            @media only screen and (max-width:1190px) {
+                                /* USING CSS MAGIC TO SWITCH ELEMENTS FROM DESKTOP VIEW TO MOBILE VIEW */
+                                #content-desktop {
+                                    display: none;
+                                }
+                                #content-mobile {
+                                    display: block;
+                                }
+                                /* CSS MAGIC ENDS HERE */
+                                /*-----------------------
+    --------------------------*/
+                            }
