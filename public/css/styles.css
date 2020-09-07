@@ -343,6 +343,9 @@ hr {
     font-size: 1.250em;
 }
 
+
+/* ABOUT-US FOR DESKTOP OR LARGE SCREENS */
+
 #aboutUs-desktop .circle {
     background-color: white;
     border-radius: 50%;
@@ -363,6 +366,65 @@ hr {
 
 #aboutUs-desktop h6 {
     font-family: 'Oxygen', sans-serif;
+}
+
+#aboutUs-desktop .heading {
+    font-size: 2.1rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+#aboutUs-desktop .heading::after {
+    content: "";
+    width: 8rem;
+    height: .4rem;
+    background-color: #e74c3c;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+#aboutUs-mobile h1 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -1px;
+}
+
+#aboutUs-mobile h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#aboutUs-mobile p {
+    font-family: sans-serif;
+    font-style: normal;
+    /* font-family: "Segoe UI"; */
+}
+
+#aboutUs-mobile .heading {
+    font-size: 2.1rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+#aboutUs-mobile .heading::after {
+    content: "";
+    width: 8rem;
+    height: .4rem;
+    background-color: #e74c3c;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
 }
 
 
@@ -397,7 +459,7 @@ hr {
     /*,Roboto,"Helvetica Neue",Arial,"Noto Sans", */
 }
 
-.heading {
+#team .heading {
     font-size: 2.1rem;
     letter-spacing: 3px;
     margin-right: -3px;
@@ -407,7 +469,7 @@ hr {
     position: relative;
 }
 
-.heading::after {
+#team .heading::after {
     content: "";
     width: 10rem;
     height: .4rem;
@@ -686,8 +748,32 @@ hr {
 
 /* DONATE TO US PAGE STARTS HERE */
 
-.heading {
+.donateUs-heading {
     margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -1px;
+}
+
+.donateUs-heading {
+    font-size: 2.1rem;
+    letter-spacing: .5px;
+    margin-right: -3px;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.donateUs-heading::after {
+    content: "";
+    width: 10rem;
+    height: .4rem;
+    background-color: #e74c3c;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
 }
 
 #donate {
@@ -709,6 +795,18 @@ hr {
     font-size: 2.50em;
     font-style: bold;
     font-weight: 900;
+}
+
+.plea {
+    font-size: 25px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    margin-right: 4%;
+}
+
+.help-message {
+    font-family: 'Bree Serif', serif;
+    color: #DC3522;
 }
 
 .boxedPadding {
@@ -810,6 +908,10 @@ hr {
     margin-bottom: 100px;
 }
 
+.form-style {
+    font-family: "Segoe UI";
+}
+
 #content-mobile .mobile-donate-margin {
     margin-left: 2%;
     margin-right: 2%;
@@ -833,15 +935,17 @@ hr {
     font-family: 'ubuntu';
 }
 
-.plea {
-    font-size: 25px;
-    margin-left: 4%;
-    margin-right: 4%;
+#content-desktop .otherDetails {
+    font-family: "Segoe UI";
 }
 
-.help-message {
-    font-family: 'Bree Serif', serif;
+#content-mobile .viah3 {
     color: #DC3522;
+    font-family: 'ubuntu';
+}
+
+#content-mobile .otherDetails {
+    font-family: "Segoe UI";
 }
 
 .messageAlignment {
