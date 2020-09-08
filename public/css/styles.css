@@ -248,6 +248,7 @@ body {
     float: left;
     margin-left: 2px;
     margin-right: 20px;
+    margin-bottom: 2px;
     /* width: 17%; */
     max-width: 250px;
     /* height: 110%; */
@@ -988,6 +989,13 @@ hr {
         margin-right: 360px;
         /* margin-left: -360px; */
     }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1016,6 +1024,7 @@ hr {
         float: left;
         margin-left: 2px;
         margin-right: 20px;
+        margin-bottom: 2px;
         /* width: 17%; */
         max-width: 200px;
         /* height: 110%; */
@@ -1030,10 +1039,129 @@ hr {
 /*##Device=Low Resolution Tablets,
 Mobiles (Landscape) ##Screen=B/w 481px to 767px */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 529px) {
     .navbar-light .navbar-brand {
         margin-left: -90px;
         font-size: 1.480em;
+    }
+    .message-img {
+        width: 35%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
+}
+
+@media (min-width: 530px) and (max-width: 539px) {
+    .navbar-light .navbar-brand {
+        margin-left: -160px;
+        font-size: 1.480em;
+    }
+    .message-img {
+        width: 35%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
+}
+
+@media (min-width: 540px) and (max-width: 554px) {
+    .navbar-light .navbar-brand {
+        margin-left: -160px;
+        font-size: 1.480em;
+    }
+    .message-img {
+        width: 35%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
+}
+
+@media (min-width: 555px) and (max-width: 599px) {
+    .navbar-light .navbar-brand {
+        margin-left: -190px;
+        font-size: 1.480em;
+    }
+    .message-img {
+        width: 35%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+    .navbar-light .navbar-brand {
+        margin-left: -180px;
+        font-size: 1.480em;
+    }
+    .message-img {
+        width: 35%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+    .navbar-light .navbar-brand {
+        margin-left: -180px;
+        font-size: 1.480em;
+    }
+    .message-img {
+        width: 35%;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
     }
 }
 
@@ -1064,9 +1192,16 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     #team .card {
         margin-left: -15px;
     }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
 }
 
-@media(min-width:337px) and (max-width:345px) {
+@media(min-width:337px) and (max-width:344px) {
     .navbar-light .navbar-brand {
         margin-left: -15px;
         font-size: 18px;
@@ -1074,15 +1209,45 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     #team .card {
         margin-left: -15px;
     }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
 }
 
-@media(min-width:346px) and (max-width:368px) {
+@media(min-width:345px) and (max-width:368px) {
     .navbar-light .navbar-brand {
         margin-left: -15px;
         font-size: 18px;
+    }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
     }
     #team .card {
         margin-left: 1px;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
     }
 }
 
@@ -1096,6 +1261,36 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
     .message-img {
         width: 32%;
+        margin-bottom: 2px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
+}
+
+@media(min-width:431px) and (max-width:455px) {
+    .navbar-light .navbar-brand {
+        margin-left: -45px;
+        /* font-size: 18px; */
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        /* margin-right: -5px; */
+        /* text-align: center; */
+    }
+    .message-img {
+        width: 32%;
+        margin-bottom: 2px;
     }
     #welcome p {
         margin-left: 4%;
@@ -1103,7 +1298,7 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
 }
 
-@media(min-width:431px) and (max-width:480px) {
+@media(min-width:456px) and (max-width:480px) {
     .navbar-light .navbar-brand {
         margin-left: -75px;
         /* font-size: 18px; */
@@ -1113,10 +1308,18 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
     .message-img {
         width: 32%;
+        margin-bottom: 2px;
     }
     #welcome p {
         margin-left: 4%;
         margin-right: 2%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
     }
 }
 
