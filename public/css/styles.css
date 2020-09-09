@@ -613,7 +613,7 @@ hr {
 #team a {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
     text-decoration: line;
 }
 
@@ -678,35 +678,47 @@ hr {
 
 /* EDITING ON THE IMAGES ON THE PROFILE OF THE TEAM MEMBERS STARTS HERE*/
 
-.esther-rounded-circle {
-    border-radius: 52%;
-    height: 160px;
+.richard-rounded-circle {
+    border-radius: 51%;
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
 }
 
 .organizer-rounded-circle {
     border-radius: 51%;
-    height: 158px;
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
 }
 
-.richard-rounded-circle {
-    border-radius: 51%;
-    height: 162px;
+.esther-rounded-circle {
+    border-radius: 52%;
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
 }
 
 .degraft-rounded-circle {
-    border-radius: 54%;
+    border-radius: 52%;
     height: 150px;
-    width: 200px;
+    /* width: 200px; */
+    max-height: 150px;
+    min-height: 150px;
 }
 
 .janet-rounded-circle {
-    border-radius: 52%;
-    height: 160px;
+    /* border-radius: 52%; */
+    /* height: 160px; */
+    max-height: 150px;
+    min-height: 150px;
 }
 
 .bernice-rounded-circle {
-    border-radius: 52%;
-    height: 160px;
+    border-radius: 51%;
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
 }
 
 
