@@ -41,6 +41,16 @@ width: 100vw;
     margin-left: 0%;
 } */
                             
+                            .navbar-light {
+                                transition: 0.75s ease;
+                            }
+                            
+                            .navbar-light.scrolled {
+                                background-color: #f0eeee !important;
+                                /* background-color: #dfd6d6 !important; */
+                                /* background-color: #c9c9c9 !important; */
+                            }
+                            
                             .navbar-light .navbar-brand {
                                 color: #fff;
                                 text-shadow: 2.5px 2.5px 2.5px black;
@@ -121,17 +131,100 @@ width: 100vw;
                             }
                             /* GET INVOLVED DROPDOWN SECTION STARTS HERE */
                             
+                            .dropdown {
+                                position: relative;
+                                display: inline-block;
+                            }
+                            
                             .dropdown-menu {
-                                background: transparent;
+                                /* background: transparent; */
+                                /* background-color: #c9c9c9 !important; */
+                                display: none;
+                                background-color: #f0eeee !important;
+                                border-color: #f0eeee;
+                            }
+                            /* .dropdown-menu a:hover {
+                                background-color: #ddd;
+                            }
+                             */
+                            
+                            .dropdown:hover .dropdown-menu {
+                                display: block;
                             }
                             
                             .dropdown-margin {
                                 margin-bottom: 2px;
                                 margin-top: -10px;
-                                margin-left: -3px;
-                                margin-right: -5px;
+                                margin-left: 5px;
+                                /* margin-right: -5px; */
                                 /* text-align: center; */
                             }
+                            
+                            .drp:nth-child(1) {
+                                /* animation: animate 300ms ease-in-out forwards; */
+                                animation-name: animate;
+                                animation-delay: -150ms;
+                                animation-duration: 600ms;
+                                animation-fill-mode: forwards;
+                            }
+                            
+                            .drp:nth-child(2) {
+                                /* animation: animate 300ms ease-in-out forwards; */
+                                animation-name: animate;
+                                animation-delay: 0ms;
+                                animation-duration: 600ms;
+                                animation-fill-mode: forwards;
+                            }
+                            
+                            .drp:nth-child(3) {
+                                /* animation: animate 300ms ease-in-out forwards; */
+                                animation-name: animate;
+                                animation-delay: 150ms;
+                                animation-duration: 600ms;
+                                animation-fill-mode: forwards;
+                            }
+                            
+                            .drp:nth-child(4) {
+                                /* animation: animate 300ms ease-in-out forwards; */
+                                animation-name: animate;
+                                animation-delay: 300ms;
+                                animation-duration: 600ms;
+                                animation-fill-mode: forwards;
+                            }
+                            
+                            .drp:nth-child(5) {
+                                /* animation: animate 300ms ease-in-out forwards; */
+                                animation-name: animate;
+                                animation-delay: 450ms;
+                                animation-duration: 600ms;
+                                animation-fill-mode: forwards;
+                            }
+                            
+                            @keyframes animate {
+                                0% {
+                                    opacity: 0;
+                                    transform: translateX(-100px);
+                                }
+                                70% {
+                                    transform: translateX(20px);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    transform: translateX(0);
+                                }
+                                /* 0% {
+        opacity: 0;
+        transform: rotateX(-90deg);
+    }
+    50% {
+        transform: rotateX(20deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+    } */
+                            }
+                            /* GET INVOLVED DROPDOWN SECTION ENDS HERE */
                             /* SETTINGS FOR MEMBERS PAGE */
                             
                             .content-effect {
@@ -209,6 +302,13 @@ width: 100vw;
                                 font-family: 'Montserrat', sans-serif;
                                 margin: 10px 20px;
                                 text-decoration: none;
+                            }
+                            
+                            .bottom-container a {
+                                color: #11999E;
+                                font-family: 'Montserrat', sans-serif;
+                                margin: 10px 20px;
+                                text-decoration: line;
                             }
                             
                             #contactUs a:hover {
