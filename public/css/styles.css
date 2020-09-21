@@ -1112,6 +1112,10 @@ hr {
         /* margin-right: -5px; */
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1131,7 +1135,9 @@ hr {
     .dropdown-menu {
         font-size: 18px;
         margin-left: -50px;
-        background: transparent;
+        /* background-color: #f0eeee !important; */
+        background: transparent !important;
+        text-align: center;
         border: #fff;
         letter-spacing: .1px;
     }
@@ -1174,6 +1180,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         /* margin-right: -5px; */
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
 
 @media (min-width: 530px) and (max-width: 539px) {
@@ -1194,6 +1204,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-left: 10px;
         /* margin-right: -5px; */
         /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
     }
 }
 
@@ -1216,6 +1230,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         /* margin-right: -5px; */
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
 
 @media (min-width: 555px) and (max-width: 599px) {
@@ -1236,6 +1254,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-left: 10px;
         /* margin-right: -5px; */
         /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
     }
 }
 
@@ -1258,6 +1280,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         /* margin-right: -5px; */
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
 
 @media (min-width: 700px) and (max-width: 767px) {
@@ -1278,6 +1304,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-left: 10px;
         /* margin-right: -5px; */
         /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
     }
 }
 
@@ -1315,6 +1345,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         /* margin-right: -5px; */
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
 
 @media(min-width:337px) and (max-width:344px) {
@@ -1339,6 +1373,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-left: 10px;
         margin-right: -5px;
         /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
     }
 }
 
@@ -1365,6 +1403,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-right: -5px;
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
 
 @media(min-width:369px) and (max-width:430px) {
@@ -1390,6 +1432,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-right: -5px;
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
 
 @media(min-width:431px) and (max-width:455px) {
@@ -1411,6 +1457,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     #welcome p {
         margin-left: 4%;
         margin-right: 2%;
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
     }
 }
 
@@ -1437,7 +1487,17 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-right: -5px;
         /* text-align: center; */
     }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
 }
+
+
+/* .navbar-nav {
+    background-color: #f0eeee !important;
+    border-radius: 5%;
+} */
 
 @media only screen and (max-width:1190px) {
     /* USING CSS MAGIC TO SWITCH ELEMENTS FROM DESKTOP VIEW TO MOBILE VIEW */
