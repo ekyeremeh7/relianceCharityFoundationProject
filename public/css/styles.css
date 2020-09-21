@@ -1507,6 +1507,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     #content-mobile {
         display: block;
     }
+    .carousel-caption {
+        top: 33%;
+        /* bottom:40%; */
+    }
     /* .w-100 { */
     /* height: 100vh; */
     /* background-size: cover;
