@@ -623,8 +623,8 @@ hr {
     color: #fff;
 }
 
-.card {
-    margin: 2rem;
+#team .card {
+    /* margin: 2rem; */
     transition: transform .5s;
 }
 
@@ -765,7 +765,7 @@ hr {
     font-size: 2.1rem;
     letter-spacing: 3px;
     margin-right: -3px;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     text-align: center;
     color: #333;
     position: relative;
@@ -907,6 +907,7 @@ hr {
 #our-projects a {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     /* margin: 10px 20px; */
     text-decoration: line;
 }
@@ -915,10 +916,10 @@ hr {
     color: #fff;
 }
 
-.card {
+/* .card {
     margin: 2rem;
     transition: transform .5s;
-}
+} */
 
 /* #our-projects .card:hover{
     transform:scale(1.0);
@@ -966,7 +967,7 @@ hr {
     text-decoration: none;
 }
 
-.bottom-containe a {
+.bottom-container a {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
@@ -1596,6 +1597,9 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
+
+
+
 }
 
 @media(min-width:337px) and (max-width:344px) {
@@ -1627,7 +1631,212 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
 }
 
-@media(min-width:345px) and (max-width:368px) {
+
+@media(min-width:345px) and (max-width:348px) {
+
+    .navbar-light .navbar-brand {
+        margin-left:-15px;
+        font-size: 18px;
+    }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #team .card {
+        margin-left: -10px;
+    
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
+    #our-projects .card{
+        /* margin: -11px; */
+        margin: 2.2rem 0 4.7rem 0; 
+    }
+ 
+}
+@media(min-width:350px) and (max-width:358px) {
+    .navbar-light .navbar-brand {
+        margin-left: -18px;
+        font-size: 18px;
+    }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #team .card {
+        margin-left: -8px;
+    
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
+    #our-projects .card{
+        /* margin: -11px; */
+        margin: 2.2rem 0 4.7rem 0; 
+    }
+ 
+}
+
+@media(min-width:349px) and (max-width:350px) {
+    .navbar-light .navbar-brand {
+        margin-left: -30px;
+        font-size: 18px;
+    }
+    #team .card {
+        margin-left: -9px;
+    }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
+}
+
+@media(min-width:351px) and (max-width:352px) {
+    .navbar-light .navbar-brand {
+        margin-left: -18px;
+        font-size: 18px;
+    }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #team .card {
+        margin-left: -7px;
+    
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
+    #our-projects .card{
+        /* margin: -11px; */
+        margin: 2.2rem 0 4.7rem 0; 
+    }
+ 
+}
+
+@media(min-width:353px) and (max-width:356px) {
+    .navbar-light .navbar-brand {
+        margin-left: -18px;
+        font-size: 18px;
+    }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #team .card {
+        margin-left: -6px;
+    
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
+    #our-projects .card{
+        /* margin: -11px; */
+        margin: 2.2rem 0 4.7rem 0; 
+    }
+ 
+}
+
+@media(min-width:357px) and (max-width:360px) {
+    .navbar-light .navbar-brand {
+        margin-left: -18px;
+        font-size: 18px;
+    }
+    .message-img {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+    #welcome p {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #team .card {
+        margin-left: -5px;
+    
+    }
+    .dropdown-margin {
+        margin-bottom: 2px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: -5px;
+        /* text-align: center; */
+    }
+    .navbar-nav {
+        background-color: #f0eeee !important;
+        border-radius: 1%;
+    }
+    #our-projects .card{
+        /* margin: -11px; */
+        margin: 2.2rem 0 4.7rem 0; 
+    }
+ 
+}
+
+@media(min-width:361px) and (max-width:368px) {
     .navbar-light .navbar-brand {
         margin-left: -15px;
         font-size: 18px;
@@ -1641,7 +1850,7 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         margin-right: 4%;
     }
     #team .card {
-        margin-left: 1px;
+        margin-left: -5px;
     }
     .dropdown-margin {
         margin-bottom: 2px;
@@ -1653,6 +1862,24 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     .navbar-nav {
         background-color: #f0eeee !important;
         border-radius: 1%;
+    }
+    #our-projects .card{
+        margin: -11px;
+        /* margin: 2.2rem 0 4.7rem 0;  */
+    }
+   
+}
+
+/* setting the our-project cards for specific screens */
+
+@media(min-width:350px) and (max-width:368px) {
+    #our-projects .card{
+       margin: 2.2rem 0 4.7rem 0; 
+    }
+}
+@media(min-width:369px) and (max-width:430px) {
+    #our-projects .card{
+       margin: 2.2rem 0 4.7rem 0; 
     }
 }
 
@@ -1683,6 +1910,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
+
+    /* #our-projects .card { */
+        /* margin: 2.2rem 0 4.7rem 0; */
+    /* } */
 }
 
 @media(min-width:431px) and (max-width:455px) {
