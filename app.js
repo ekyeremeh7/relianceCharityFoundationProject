@@ -5,7 +5,7 @@ const ejs = require("ejs");
 const app = express();
 
 // MEMBERS INFO
-const founderInfo = "Osei Eric Owiredu is the Founder and Executive director of Reliance Charity Foundation. He is a man who transforms houses into homes through the Gospel of Christ.Campus Director for Hult Foundation / United Nations program for tertiary students. He believes in the dreams and potentials of every child and youth and feeds parent on the truth about parenting for a glorious community building. Eric is a Christian, advisor, teacher, life coach, community developer, philanthropist and a research assistant in El-parah Consult Limited. He is currently a student of Accra Technical University pursuing Marketing and Management Studies. Eric is versatile, deligent, humble, highly committed to his work and aims to restore the hope of the vulnerable, make life better for others and eradicate poverty in Africa.";
+const founderInfo = "Osei Eric Owiredu is the Founder and Executive Director of Reliance Charity Foundation. He is a man who transforms houses into homes through the Gospel of Christ.Campus Director for Hult Foundation / United Nations program for tertiary students. He believes in the dreams and potentials of every child and youth and feeds parent on the truth about parenting for a glorious community building. Eric is a Christian, advisor, teacher, life coach, community developer, philanthropist and a research assistant in El-parah Consult Limited. He is currently a student of Accra Technical University pursuing Marketing and Management Studies. Eric is versatile, deligent, humble, highly committed to his work and aims to restore the hope of the vulnerable, make life better for others and eradicate poverty in Africa.";
 const generalSecretaryInfo = "Esther Safoa Opoku is a Political Science student of the University of Ghana. She is an entrepreneur and currently a big sky sister at Alogboshie Basic Two. Safoa is an avid reader and loves to write as well. She has great interest in impacting knowledge into the younger ones in the society ";
 const proInfo = "Mensah Stephen,A current student of the University of Ghana reading Psychology and Information Technology.Love to work and inspire. The Chief Executive Officer of Stehve Khay Multimeida and the head of Organizing of the Graceful Youth Ministry. Compassionate and loves to invent. Holds a position as the P.R.O for Reliance Charity Foundation.";
 const organizerInfo = "Johnson Emmanuel Egyire a Medical Student of Pentecost University, majoring in Physician Assistanship. He is a versatile person with numerous traits in fine arts, music, poetry. He is the CEO of Jhealth EfCare, a humanitarian organization which seeks to helping deprived areas with intensive healthcare and its related initiatives. He is also the lyrics techniques and video analyst instructor for Yadah Music Ministry. Johnson is an extremist,loves to empower people through arts,music, poetry and writing in general.";
@@ -162,6 +162,10 @@ app.get("/donateUs", function(req, res) {
 app.get("/thanksmessage", function(req, res) {
     res.render("thanksmessage");
 });
+
+app.get("/gallery",function(req,res){
+    res.render("gallery")
+})
 
 
 let port = process.env.PORT;
