@@ -1,6 +1,6 @@
-const loader = document.querySelector('.loader');
+//const loader = document.querySelector('.loader');
 
-//const figure = document.querySelector('figure');
+const figure = document.querySelector('figure');
 
 // const pushingPixels = document.querySelector('.loading');
 
@@ -8,11 +8,11 @@ const main = document.querySelector('.main');
 
 function init() {
 	setTimeout(() => {
-		loader.style.opacity = 0;
-		loader.style.display = 'none';
+		//loader.style.opacity = 0;
+		//loader.style.display = 'none';
 
-		//  figure.style.opacity = 0;
-		//  figure.style.display = 'none';
+		  figure.style.opacity = 0;
+		  figure.style.display = 'none';
 
 		// pushingPixels.style.opacity = 0;
 		// pushingPixels.style.display = 'none';

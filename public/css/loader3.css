@@ -1,7 +1,8 @@
-body {
+/* body { */
     /* background: #222; */
-    background-color:#fff;
-}
+    /* background-color:#fff; */
+/* } */
+
 figure {
 	position: fixed;
 	top: 50%;
@@ -40,28 +41,33 @@ figure {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	background: #ff4444;
+    /* background: #ff4444; */
+    /* background:#E74C3C; */
+    background:#000;
 	animation: dotsY 2.4s linear infinite;
 }
 .dot:nth-child(3) {
 	left: 0;
 	right: 0;
 	top: 0;
-	background: #ffbb33;
+    background: #ffbb33;
+    
 	animation: dotsX 2.4s linear infinite;
 }
 .dot:nth-child(4) {
 	top: 0;
 	bottom: 0;
 	right: 0;
-	background: #99cc00;
+    /* background: #99cc00; */
+    background:lightskyblue;
 	animation: dotsY 2.4s linear infinite;
 }
 .dot:nth-child(5) {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #33b5e5;
+    /* background: #33b5e5; */
+    background:#F40568;
 	animation: dotsX 2.4s linear infinite;
 }
 
