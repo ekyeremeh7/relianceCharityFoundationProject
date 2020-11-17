@@ -37,14 +37,14 @@ body {
 	clear: both;
 }
 
-span {
+.Span {
 	float: left;
 	height: 100px;
 	line-height: 120px;
 	width: 50px;
 }
 
-.loader > span {
+.loader > .Span {
 	border-left: 1px solid #444;
 	border-right: 1px solid #222;
 }
@@ -55,7 +55,7 @@ span {
 	width: 100%;
 }
 
-.covers span {
+.covers .Span {
 	background: linear-gradient(180deg, white 0, #ddd 100%);
 	animation: up 2s infinite;
 }
