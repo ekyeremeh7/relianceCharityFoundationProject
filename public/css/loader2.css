@@ -1,9 +1,19 @@
-.loader{
-    margin-top:450px;
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    transform: translate(-50%, -50%);
+  }
+
+/* .loader{
+    margin-top:50%;
     display:flex;
     justify-content:center;
     align-items:center;
-}
+} */
 
 .loader > span{
  display:inline-block;
