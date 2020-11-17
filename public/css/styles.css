@@ -1,3 +1,11 @@
+.main {
+	opacity: 0;
+	display: none;
+	transition: opacity 1s ease-in;
+  }
+  
+
+
 /* USING CSS MAGIC TO SWITCH TO THE DESKTOP VIEW */
 
 #content-desktop {
