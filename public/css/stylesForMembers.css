@@ -292,6 +292,7 @@ body {
     font-weight: 300;
     /* font-size: 20px; */
     font-size: 1.250em;
+    text-align: left;
     /* letter-spacing: 1px; */
     /*,Roboto,"Helvetica Neue",Arial,"Noto Sans", */
 }
@@ -823,6 +824,3 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     /*-----------------------
     --------------------------*/
 }
-
-
-/*----*/
