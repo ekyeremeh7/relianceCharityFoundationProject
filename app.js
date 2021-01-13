@@ -163,9 +163,14 @@ app.get("/thanksmessage", function(req, res) {
     res.render("thanksmessage");
 });
 
-app.get("/gallery",function(req,res){
-    res.render("gallery")
-})
+app.get("/gallery/OCT-2020", function(req, res) {
+    res.render("gallery/OCT-2020");
+});
+
+
+app.get("/gallery/DEC-2020", function(req, res) {
+    res.render("gallery/DEC-2020");
+});
 
 
 let port = process.env.PORT;

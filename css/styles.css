@@ -1,0 +1,181 @@
+p{
+	font-size: 20px;
+}
+
+/* EDITING ON THE IMAGES ON THE PROFILE OF THE TEAM MEMBERS */
+.esther-rounded-circle{
+    border-radius:52%;
+    height: 160px;
+}
+.organizer-rounded-circle{
+    border-radius:51%;
+    height:165px;
+}
+.richard-rounded-circle{
+    border-radius:51%;
+    height:162px;
+}
+.degraft-rounded-circle{
+    border-radius:52%;
+    height:160px;
+    width:200px;
+}
+.janet-rounded-circle{
+    border-radius:52%;
+    height:160px;
+}
+.bernice-rounded-circle{
+    border-radius:52%;
+    height:160px;
+}
+/* 
+.subtle{
+    color: black;
+    /* font-weight: bold; */
+   /* } */ */
+.carousel-item{
+    height:100vh;
+    min-height:300px ;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover ;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 350px;
+}
+
+.carousel-caption h5{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: 'Quicksand',sans-serif;
+}
+
+/* effects For our Team  */
+*{
+    margin: 0;
+    padding:0;
+}
+#titles{
+    font-family:'Raleway','sans-serif';
+    font-size:14px;
+    font-weight:400;
+    color:#777;
+
+
+}
+h3{
+    font-size:24px;
+    font-family: 'Ubuntu','sans-serif';
+}
+#team img{
+    margin-top:-50px;
+
+}
+#team i{
+    font-size:26px;
+}
+#team p{
+    font-weight: 300;
+}
+#team .card{
+    border-radius:0;
+    box-shadow:5px 5px 15px #e74c3c ;
+    transition: all 0.3s ease-in;
+    -webkit-transition:all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#team .card:hover{
+    background: #e74c3c;
+    color: #fff;
+    border-radius:5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+
+
+
+/* Navbar CSS Section */
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+
+/*.navbar-nav a{
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}*/
+.navbar-light .navbar-brand{
+	color: #fff;
+	font-size: 20px;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding: .2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus{
+/* color: white; */
+color:#e74c3c;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    /* color: #fff	!important; */
+    color:#e74c3c;
+}
+
+.w-100{
+	height: 100vh;
+}
+
+@media only screen and (max-width: 767px){
+	.navbar-nav.ml--auto{
+		background: rgba(0,0,0,0.5);
+	}
+	.navbar-toggler{
+		padding: 1px 5px;
+		font-size: 18px;
+		line-height: 0.3;
+		background: #fff;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

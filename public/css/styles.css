@@ -1,9 +1,8 @@
 .main {
-	opacity: 0;
-	display: none;
-	transition: opacity 1s ease-in;
-  }
-  
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
+}
 
 
 /* USING CSS MAGIC TO SWITCH TO THE DESKTOP VIEW */
@@ -738,11 +737,12 @@ hr {
 /* TEAM SECTION ENDS HERE */
 
 
-
-
-
-
 /* OUR PROJECTS STARTS HERE */
+
+.project-card-margin {
+    padding-bottom: 300px;
+}
+
 #our-projects h1 {
     font-family: 'Poppins', sans-serif;
     letter-spacing: -1px;
@@ -805,28 +805,28 @@ hr {
     display: grid;
     /* grid-template-columns: 300px; */
     grid-template-rows: 210px 210px 80px;
-    grid-template-areas:"image" "text" "stats";
+    grid-template-areas: "image" "text" "stats";
     border-radius: 18px;
+    margin: 2.2rem 0 2.0rem 0;
     /* flex-direction: column; */
     /* border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
     border-top-right-radius: 18px;
     border-top-left-radius: 18px; */
     /* box-shadow: 5px 5px 15px #e74c3c; */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9) ;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     /* margin: 2.2rem 0 4.7rem 0; */
     /* transition: all 0.3s ease-in; */
-    transition:0.5s ease;
-    text-align:center;
+    transition: 0.5s ease;
+    text-align: center;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
 }
 
-
-#our-projects .card-text{
-        margin-top: 10px;
-        margin-bottom:10px;
+#our-projects .card-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #our-projects .card:hover {
@@ -836,8 +836,8 @@ hr {
     border-bottom-right-radius: 18px;
     border-top-right-radius: 18px;
     border-top-left-radius: 18px;
-    transform:scale(1.1);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6) ;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
     /* box-shadow: 5px 5px 10px #9E9E9E;  #f0eeee ; */
 }
 
@@ -845,57 +845,57 @@ hr {
 #our-projects .card:hover i {
     color: #fff;
 }
-#our-projects .card-image-top{
-    margin-top:-50px;
+
+#our-projects .card-image-top {
+    margin-top: -50px;
     /* background-size:cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px; */
 }
 
-#our-projects .card-body{
-    margin-top:15px;
+#our-projects .card-body {
+    margin-top: 15px;
 }
 
-#our-projects .card-stats{
-   /* grid-area: stats; */
-   /* display: grid; */
-   display: flex;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr;
-   margin-left:10px;
-   border-bottom-left-radius:15px;
-   border-bottom-right-radius: 15px;
-   /* background:rgb(255,7,110); */
-
+#our-projects .card-stats {
+    /* grid-area: stats; */
+    /* display: grid; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background:rgb(255,7,110); */
 }
 
-#our-projects .card-stats .stat{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+#our-projects .card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    padding:10px;
+    padding: 10px;
     /* color:white; */
-    color:black;
-    margin-top:10px;
-    margin-left:15px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 15px;
     border-radius: 3px;
     /* background:#9E9E9E;  */
-    background:white;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6) ;
-
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
-#our-projects .card-stats .type{
+#our-projects .card-stats .type {
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-#our-projects .card-stats .value{
-    font-size:22px;
-    font-weight:500;
+#our-projects .card-stats .value {
+    font-size: 22px;
+    font-weight: 500;
 }
+
 
 /* #our-projects .card-stats .border{
     border-left: 1px solid rgb(172,26,87);
@@ -903,13 +903,13 @@ hr {
 } */
 
 #our-projects .value sup {
-    font-size:12px ;
+    font-size: 12px;
 }
 
-#our-projects .card-text .date{
-   /* color:rgb(255,7,110); */
-   text-align:center;
-   font-size: 18px;
+#our-projects .card-text .date {
+    /* color:rgb(255,7,110); */
+    text-align: center;
+    font-size: 18px;
 }
 
 #our-projects a {
@@ -924,18 +924,20 @@ hr {
     color: #fff;
 }
 
+
 /* .card {
     margin: 2rem;
     transition: transform .5s;
 } */
 
+
 /* #our-projects .card:hover{
     transform:scale(1.0);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 } */
+
+
 /* OUR PROJECTS ENDS HERE */
-
-
 
 
 /* QUOTE SECTION STARTS HERE */
@@ -1294,21 +1296,23 @@ hr {
 
 
 /*  GALLERY PAGE EFFECTS STARTS HERE*/
-.gallery{
-  align-items: center;
-  margin:75px;
-  /* margin: 10px 50px; */
-}
-.gallery img{
-    width:230px;
-    padding:8px;
-    filter:grayscale(100%);
-    transition:1s;
+
+.gallery {
+    align-items: center;
+    margin: 75px;
+    /* margin: 10px 50px; */
 }
 
-.gallery img:hover{
-    filter:grayscale(0);
-    transform:scale(1.1);
+.gallery img {
+    width: 230px;
+    padding: 8px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 .gallery-title {
@@ -1338,6 +1342,8 @@ hr {
     transform: translateX(-50%);
     border-radius: 2rem;
 }
+
+
 /* GALLERY PAGE EFFECTS ENDS HERE */
 
 
@@ -1606,9 +1612,6 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-
-
-
 }
 
 @media(min-width:337px) and (max-width:344px) {
@@ -1640,11 +1643,9 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
 }
 
-
 @media(min-width:345px) and (max-width:348px) {
-
     .navbar-light .navbar-brand {
-        margin-left:-15px;
+        margin-left: -15px;
         font-size: 18px;
     }
     .message-img {
@@ -1657,7 +1658,6 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
     #team .card {
         margin-left: -10px;
-    
     }
     .dropdown-margin {
         margin-bottom: 2px;
@@ -1670,12 +1670,12 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-    #our-projects .card{
+    #our-projects .card {
         /* margin: -11px; */
-        margin: 2.2rem 0 4.7rem 0; 
+        margin: 2.2rem 0 4.7rem 0;
     }
- 
 }
+
 @media(min-width:350px) and (max-width:358px) {
     .navbar-light .navbar-brand {
         margin-left: -18px;
@@ -1691,7 +1691,6 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
     #team .card {
         margin-left: -8px;
-    
     }
     .dropdown-margin {
         margin-bottom: 2px;
@@ -1704,11 +1703,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-    #our-projects .card{
+    #our-projects .card {
         /* margin: -11px; */
-        margin: 2.2rem 0 4.7rem 0; 
+        margin: 2.2rem 0 4.7rem 0;
     }
- 
 }
 
 @media(min-width:349px) and (max-width:350px) {
@@ -1755,7 +1753,6 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
     #team .card {
         margin-left: -7px;
-    
     }
     .dropdown-margin {
         margin-bottom: 2px;
@@ -1768,11 +1765,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-    #our-projects .card{
+    #our-projects .card {
         /* margin: -11px; */
-        margin: 2.2rem 0 4.7rem 0; 
+        margin: 2.2rem 0 4.7rem 0;
     }
- 
 }
 
 @media(min-width:353px) and (max-width:356px) {
@@ -1790,7 +1786,6 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
     #team .card {
         margin-left: -6px;
-    
     }
     .dropdown-margin {
         margin-bottom: 2px;
@@ -1803,11 +1798,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-    #our-projects .card{
+    #our-projects .card {
         /* margin: -11px; */
-        margin: 2.2rem 0 4.7rem 0; 
+        margin: 2.2rem 0 4.7rem 0;
     }
- 
 }
 
 @media(min-width:357px) and (max-width:360px) {
@@ -1825,7 +1819,6 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     }
     #team .card {
         margin-left: -5px;
-    
     }
     .dropdown-margin {
         margin-bottom: 2px;
@@ -1838,11 +1831,10 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-    #our-projects .card{
+    #our-projects .card {
         /* margin: -11px; */
-        margin: 2.2rem 0 4.7rem 0; 
+        margin: 2.2rem 0 4.7rem 0;
     }
- 
 }
 
 @media(min-width:361px) and (max-width:368px) {
@@ -1872,23 +1864,24 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-    #our-projects .card{
+    #our-projects .card {
         margin: -11px;
         /* margin: 2.2rem 0 4.7rem 0;  */
     }
-   
 }
+
 
 /* setting the our-project cards for specific screens */
 
 @media(min-width:350px) and (max-width:368px) {
-    #our-projects .card{
-       margin: 2.2rem 0 4.7rem 0; 
+    #our-projects .card {
+        margin: 2.2rem 0 4.7rem 0;
     }
 }
+
 @media(min-width:369px) and (max-width:430px) {
-    #our-projects .card{
-       margin: 2.2rem 0 4.7rem 0; 
+    #our-projects .card {
+        margin: 2.2rem 0 4.7rem 0;
     }
 }
 
@@ -1919,9 +1912,8 @@ Mobiles (Landscape) ##Screen=B/w 481px to 767px */
         background-color: #f0eeee !important;
         border-radius: 1%;
     }
-
     /* #our-projects .card { */
-        /* margin: 2.2rem 0 4.7rem 0; */
+    /* margin: 2.2rem 0 4.7rem 0; */
     /* } */
 }
 
